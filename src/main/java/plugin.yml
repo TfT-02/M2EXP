@@ -1,0 +1,34 @@
+author: computerdude5000
+database: false
+description: buy McMMO exp points!
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: com.github.computerdude5000.m2exp.M2EXP
+name: M2EXP
+startup: postworld
+version: 0.0.0.0.0.0.0.1
+depend: [Vault, mcMMO]
+commands:
+ bacrobatics:
+   description: buy McMMO Acrobatics skill exp
+ barchery:
+   description: buy McMMO Archery skill exp
+ baxes: 
+   description: buy McMMO Axes skill exp
+ bexcavation: 
+   description: buy McMMO excavation skill exp
+ bfishing:
+   description: buy McMMO Fishing skill exp
+ bherbalism:
+   description: buy McMMO Herbalism skill exp
+ bmining:
+   description: buy McMMO Mining skill exp
+ brepair:
+   description: buy McMMO Repair skill exp
+ bswords:
+   description: buy McMMO Swords skill exp
+ btaming:
+   description: buy McMMO Taming skill exp
+ bunarmed:
+   description: buy McMMO Unarmed skill exp
+ bwoodcutting:
+   description: buy McMMO Woodcutting skill exp
