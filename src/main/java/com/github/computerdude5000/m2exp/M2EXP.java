@@ -40,6 +40,7 @@ import com.github.computerdude5000.m2exp.commands.Buytaming;
 import com.github.computerdude5000.m2exp.commands.Buyunarmed;
 import com.github.computerdude5000.m2exp.commands.Buywoodcutting;
 
+import java.io.IOException;
 import java.util.logging.Logger;
 
 
@@ -115,6 +116,12 @@ public class M2EXP extends JavaPlugin implements Listener {
     
 
     public void onEnable() {
+    	try {
+    	    Metrics metrics = new Metrics(this);
+    	    metrics.start();
+    	} catch (IOException e) {
+    	    // Failed to submit the stats :-(
+    	}
     	
         if (!setupEconomy() ) {
             logger.severe( String.format("[%s] - Disabled due to no Vault dependency found!", getDescription().getName()));
@@ -128,11 +135,7 @@ public class M2EXP extends JavaPlugin implements Listener {
 		logger.info(chatprefix +" By Computerdude5000");
 		logger.info(chatprefix +" Feel free to email me any bugs at");
 		logger.info(chatprefix +" Computerdude5000@gmail.com");
-		logger.info(chatprefix+" or you can go to github.com/computerdude5000/Money2EXP and post a bug report their!");
-		logger.info(chatprefix+" -------------lets get to the Plugin!-----------------");
-		logger.info(chatprefix+" Hello!");
-		logger.info(chatprefix+" This is just my message that I am starting to enable!");
-		logger.info(chatprefix+" So lets get started shall we first I will preform a check to make sure you have MCMMO & Essentials");
+		logger.info(chatprefix+" or you can go to github.com/computerdude5000/Money2EXP and post a bug report there!");
 		
 		   
 	this.getCommand("bherbalism").setExecutor(new Buyherbalism(this));
@@ -149,6 +152,7 @@ public class M2EXP extends JavaPlugin implements Listener {
 	this.getCommand("barchery").setExecutor(new Buyarchery(this));
 	
 	
+	
 		
 	}
     }
@@ -160,19 +164,5 @@ public class M2EXP extends JavaPlugin implements Listener {
         event.getPlayer().sendMessage("Enjoy your stay on the server!!");
       
     }
-    //@EventHandler 
-    //public void onPlayerQuit (PlayerQuitEvent event){
-    	///if (event.getPlayer().equals("Tmaster99999")){
-    //		event.setQuitMessage("He came, He saw, He lagged out!!");
-    //}
-    	//else if (event.getPlayer().equals("Computerdude5000")){
-    //		event.setQuitMessage("The main maker of M2EXP has just left the server!!!");
-    		
-    //	}
-    	//else {
-    		//event.setQuitMessage("goodbye");
-    	//}
-    
-//}
+ 
 }
-
