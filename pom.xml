@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.computerdude5000.m2exp</groupId>
     <artifactId>M2EXP</artifactId>
-    <version>0.0.0.0.0.0.0.3</version>
+    <version>0.0.1</version>
     <name>M2EXP</name>
     <repositories>
         <repository>
@@ -11,7 +11,7 @@
         </repository>
         <repository>
 			<id>vault-repo</id>
-			<url>http://ci.herocraftonline.com/plugin/repository/everything</url>
+			<url>http://ci.herocraftonline.com/plugin/repository/everything/</url>
 		</repository>
     </repositories>
     <build>
@@ -29,14 +29,14 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>1.4.6-R0.1</version>
-        </dependency>
+  			<groupId>org.bukkit</groupId>
+  			<artifactId>bukkit</artifactId>
+  			<version>1.4.7-R1.0</version>
+		</dependency>
         <dependency>
-        	<groupId>net.milkbowl</groupId>
-        	<artifactId>vault</artifactId>
-        	<version>1</version>
+        	<groupId>net.milkbowl.vault</groupId>
+			<artifactId>Vault</artifactId>
+			<version>1.2.24-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

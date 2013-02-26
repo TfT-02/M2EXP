@@ -48,6 +48,7 @@ public class Buyacrobatics implements CommandExecutor{
 		
 			if (sender instanceof Player) {
 				Player player = (Player) sender;
+				if (plugin.perms.has(player,"m2exp.buy.acrobatics")){
 				if (args[0].equals("info")){
 						player.sendMessage("Buy Acrobatics EXP");
 						player.sendMessage("Price for 5 Units is: "+ " and gives you: "+ " Exp of Acrobatics");
@@ -59,14 +60,14 @@ public class Buyacrobatics implements CommandExecutor{
 						player.sendMessage("Price for 300 Units is: "+ " and gives you: "+ " Exp of Acrobatics");
 						player.sendMessage("Do /bacrobatics and the number of units IE: /bacrobatics 20");
 				}
-						else if (args[0].equals("5")){
-								sender.sendMessage(String.format("You have %s", M2EXP.economy.format(M2EXP.economy.getBalance(player.getName()))));
+					else if (args[0].equals("5")){
+							player.sendMessage(String.format("You have %s", M2EXP.economy.format(M2EXP.economy.getBalance(player.getName()))));
 
-								EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), plugin.p5);
+							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), plugin.p5);
 									
-									if(r.transactionSuccess()) {
-											sender.sendMessage(String.format("You were given %s units of exp and now have %s", plugin.u5, M2EXP.economy.format(r.balance)));
-											ExperienceAPI.addRawXP(player, SkillType.ACROBATICS, plugin.u5);
+					 		if(r.transactionSuccess()) {
+									player.sendMessage(String.format("You were given %s units of exp and now have %s", plugin.u5, M2EXP.economy.format(r.balance)));
+									ExperienceAPI.addRawXP(player, SkillType.ACROBATICS, plugin.u5);
 											
 								     } 
 									 else {
@@ -176,27 +177,21 @@ public class Buyacrobatics implements CommandExecutor{
 							player.sendMessage("please use a valid number 5,10,20,50,100,200,300");
 						}
 						return false;
-						
-						
-						
-						
-						
-						
-						
+				
 			}
 			else{
 				System.out.println("Sorry you are not a player and you don't have access to this command");
 			}
 		}
-		
+		}	
 	}catch (ArrayIndexOutOfBoundsException e){
 			sender.sendMessage("please enter an argument like info,5,10,20,50,100,200,300 ");
 		}
 		return false;
 	
-	}
 	
-
+	
+	}
 	
 	}
 	
