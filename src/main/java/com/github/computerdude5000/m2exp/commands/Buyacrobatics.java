@@ -41,6 +41,22 @@ public class Buyacrobatics implements CommandExecutor{
 	public Buyacrobatics(M2EXP plugin) {
 		this.plugin = plugin;
 	}
+	int unitprice = this.plugin.getModuleConfig("acrobatics").getInt("unitprice");
+	int expunits = this.plugin.getModuleConfig("acrobatics").getInt("expunits");
+	int p5 = unitprice *5;
+	int p10 = unitprice *10;
+	int p20 = unitprice *20;
+	int p50 = unitprice *50;
+	int p100 = unitprice * 100;
+	int p200 = unitprice * 200;
+	int p300 = unitprice * 300;
+	int u5 = expunits * 5;
+	int u10 = expunits * 10;
+	int u20 = expunits * 20;
+	int u50 = expunits * 50;
+	int u100 = expunits * 100;
+	int u200 = expunits * 200;
+	int u300 = expunits *300;
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
 		try{
@@ -51,13 +67,13 @@ public class Buyacrobatics implements CommandExecutor{
 				if (plugin.perms.has(player,"m2exp.buy.acrobatics")){
 				if (args[0].equals("info")){
 						player.sendMessage("Buy Acrobatics EXP");
-						player.sendMessage("Price for 5 Units is: "+ " and gives you: "+ " Exp of Acrobatics");
-						player.sendMessage("Price for 10 Units is: "+ " and gives you: "+ " Exp of Acrobatics");
-						player.sendMessage("Price for 20 Units is: "+ " and gives you: "+ " Exp of Acrobatics");
-						player.sendMessage("Price for 50 Units is: "+ " and gives you: "+ " Exp of Acrobatics");
-						player.sendMessage("Price for 100 Units is: "+ " and gives you: "+ " Exp of Acrobatics");
-						player.sendMessage("Price for 200 Units is: " + " and gives you: "+ " Exp of Acrobatics");
-						player.sendMessage("Price for 300 Units is: "+ " and gives you: "+ " Exp of Acrobatics");
+						player.sendMessage("Price for 5 Units is: "+ p5+ " and gives you: "+u5+ " Exp of Acrobatics");
+						player.sendMessage("Price for 10 Units is: "+p10+ " and gives you: "+u10+ " Exp of Acrobatics");
+						player.sendMessage("Price for 20 Units is: "+p20+ " and gives you: "+ u20+" Exp of Acrobatics");
+						player.sendMessage("Price for 50 Units is: "+ p50+" and gives you: "+ u50+" Exp of Acrobatics");
+						player.sendMessage("Price for 100 Units is: "+p100+ " and gives you: "+u100+ " Exp of Acrobatics");
+						player.sendMessage("Price for 200 Units is: " +p200+ " and gives you: "+u200+ " Exp of Acrobatics");
+						player.sendMessage("Price for 300 Units is: "+p300+ " and gives you: "+u300+ " Exp of Acrobatics");
 						player.sendMessage("Do /bacrobatics and the number of units IE: /bacrobatics 20");
 				}
 					else if (args[0].equals("5")){

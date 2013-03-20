@@ -21,6 +21,8 @@ package com.github.computerdude5000.m2exp;
 import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.permission.Permission;
 
+import org.bukkit.configuration.ConfigurationSection;
+import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
@@ -40,6 +42,7 @@ import com.github.computerdude5000.m2exp.commands.Buytaming;
 import com.github.computerdude5000.m2exp.commands.Buyunarmed;
 import com.github.computerdude5000.m2exp.commands.Buywoodcutting;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.logging.Logger;
 
@@ -94,10 +97,6 @@ public class M2EXP extends JavaPlugin implements Listener {
 	public double p5 = unitprice*5;
 	
 
-	
-
-	
-  
     public void onDisable() {
      	logger.info(chatprefix+"Goodbye!");
         
@@ -156,13 +155,27 @@ public class M2EXP extends JavaPlugin implements Listener {
 		
 	}
     }
- 
-    @EventHandler
-    public void onPlayerJoin(PlayerJoinEvent event) {
-        event.getPlayer().sendMessage("Welcome, " + event.getPlayer().getDisplayName() + "!");
-        event.getPlayer().sendMessage("M2EXP version 0.0.0.0.0.0.0.1 running!");
-        event.getPlayer().sendMessage("Enjoy your stay on the server!!");
-      
+    /**
+     * For module use: Get a ConfigurationSection in the root config.yml for the
+     * module itself
+     *
+     * @param moduleName Name of modules's section in config.yml
+     * @return ConfigurationSection from root of config.yml
+     */
+    public ConfigurationSection getModuleConfig(String moduleName) {
+        return YamlConfiguration
+                .loadConfiguration(new File(getDataFolder(), "config.yml"))
+                .getConfigurationSection("skill")
+                .getConfigurationSection(moduleName);
     }
+
+ 
+ //   @EventHandler
+  //  public void onPlayerJoin(PlayerJoinEvent event) {
+    //    event.getPlayer().sendMessage("Welcome, " + event.getPlayer().getDisplayName() + "!");
+     //   event.getPlayer().sendMessage("M2EXP version 0.0.0.0.0.0.0.1 running!");
+     //   event.getPlayer().sendMessage("Enjoy your stay on the server!!");
+      
+   // }
  
 }

@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.computerdude5000.m2exp</groupId>
     <artifactId>M2EXP</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.4</version>
     <name>M2EXP</name>
     <repositories>
         <repository>
@@ -31,7 +31,7 @@
         <dependency>
   			<groupId>org.bukkit</groupId>
   			<artifactId>bukkit</artifactId>
-  			<version>1.4.7-R1.0</version>
+  			<version>1.5-R0.1-SNAPSHOT</version>
 		</dependency>
         <dependency>
         	<groupId>net.milkbowl.vault</groupId>
