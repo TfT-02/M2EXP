@@ -36,22 +36,22 @@ public class Buywoodcutting implements CommandExecutor{
 	public Buywoodcutting(M2EXP plugin) {
 		this.plugin = plugin;
 	}
-	int unitprice = this.plugin.getModuleConfig("acrobatics").getInt("unitprice");
-	int expunits = this.plugin.getModuleConfig("acrobatics").getInt("expunits");
-	int p5 = unitprice *5;
-	int p10 = unitprice *10;
-	int p20 = unitprice *20;
-	int p50 = unitprice *50;
-	int p100 = unitprice * 100;
-	int p200 = unitprice * 200;
-	int p300 = unitprice * 300;
-	int u5 = expunits * 5;
-	int u10 = expunits * 10;
-	int u20 = expunits * 20;
-	int u50 = expunits * 50;
-	int u100 = expunits * 100;
-	int u200 = expunits * 200;
-	int u300 = expunits *300;
+	private int unitprice = this.plugin.getModuleConfig("acrobatics").getInt("unitprice");
+	private int expunits = this.plugin.getModuleConfig("acrobatics").getInt("expunits");
+	private int p5 = unitprice *5;
+	private 	int p10 = unitprice *10;
+	private 	int p20 = unitprice *20;
+	private 	int p50 = unitprice *50;
+	private int p100 = unitprice * 100;
+	private int p200 = unitprice * 200;
+	private int p300 = unitprice * 300;
+	private int u5 = expunits * 5;
+	private int u10 = expunits * 10;
+	private int u20 = expunits * 20;
+	private 	int u50 = expunits * 50;
+	private int u100 = expunits * 100;
+	private int u200 = expunits * 200;
+	private int u300 = expunits *300;
 	
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
