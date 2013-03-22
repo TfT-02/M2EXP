@@ -79,11 +79,11 @@ public class Buyacrobatics implements CommandExecutor{
 					else if (args[0].equals("5")){
 							player.sendMessage(String.format("You have %s", M2EXP.economy.format(M2EXP.economy.getBalance(player.getName()))));
 
-							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), plugin.p5);
+							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), p5);
 									
 					 		if(r.transactionSuccess()) {
-									player.sendMessage(String.format("You were given %s units of exp and now have %s", plugin.u5, M2EXP.economy.format(r.balance)));
-									ExperienceAPI.addRawXP(player, SkillType.ACROBATICS, plugin.u5);
+									player.sendMessage(String.format("You were given %s units of exp and now have %s", u5, M2EXP.economy.format(r.balance)));
+									ExperienceAPI.addRawXP(player, SkillType.ACROBATICS, u5);
 											
 								     } 
 									 else {
@@ -94,11 +94,11 @@ public class Buyacrobatics implements CommandExecutor{
 						else if(args[0].equals("10")){
 							sender.sendMessage(String.format("You have %s", M2EXP.economy.format(M2EXP.economy.getBalance(player.getName()))));
 
-							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), plugin.p10);
+							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), p10);
 								
 								if(r.transactionSuccess()) {
-										sender.sendMessage(String.format("You were given %s units of exp and now have %s", plugin.u10, M2EXP.economy.format(r.balance)));
-										ExperienceAPI.addRawXP(player, SkillType.ACROBATICS, plugin.u10);
+										sender.sendMessage(String.format("You were given %s units of exp and now have %s", u10, M2EXP.economy.format(r.balance)));
+										ExperienceAPI.addRawXP(player, SkillType.ACROBATICS, u10);
 										
 							     } 
 								 else {
@@ -110,11 +110,11 @@ public class Buyacrobatics implements CommandExecutor{
 						else if (args[0].equals("20")){
 							sender.sendMessage(String.format("You have %s", M2EXP.economy.format(M2EXP.economy.getBalance(player.getName()))));
 
-							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), plugin.p20);
+							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), p20);
 								
 								if(r.transactionSuccess()) {
-										sender.sendMessage(String.format("You were given %s units of exp and now have %s", plugin.u20, M2EXP.economy.format(r.balance)));
-										ExperienceAPI.addRawXP(player, SkillType.ACROBATICS, plugin.u20);
+										sender.sendMessage(String.format("You were given %s units of exp and now have %s", u20, M2EXP.economy.format(r.balance)));
+										ExperienceAPI.addRawXP(player, SkillType.ACROBATICS, u20);
 										
 							     } 
 								 else {
@@ -126,11 +126,11 @@ public class Buyacrobatics implements CommandExecutor{
 						else if (args[0].equals("50")){
 							sender.sendMessage(String.format("You have %s", M2EXP.economy.format(M2EXP.economy.getBalance(player.getName()))));
 
-							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), plugin.p50);
+							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), p50);
 								
 								if(r.transactionSuccess()) {
-										sender.sendMessage(String.format("You were given %s units of exp and now have %s", plugin.u50, M2EXP.economy.format(r.balance)));
-										ExperienceAPI.addRawXP(player,SkillType.ACROBATICS, plugin.u50);
+										sender.sendMessage(String.format("You were given %s units of exp and now have %s", u50, M2EXP.economy.format(r.balance)));
+										ExperienceAPI.addRawXP(player,SkillType.ACROBATICS, u50);
 										
 							     } 
 								 else {
@@ -142,11 +142,11 @@ public class Buyacrobatics implements CommandExecutor{
 						else if (args[0].equals("100")){
 							sender.sendMessage(String.format("You have %s", M2EXP.economy.format(M2EXP.economy.getBalance(player.getName()))));
 
-							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), plugin.p100);
+							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(),p100);
 								
 								if(r.transactionSuccess()) {
-										sender.sendMessage(String.format("You were given %s units of exp and now have %s", plugin.u100, M2EXP.economy.format(r.balance)));
-										ExperienceAPI.addRawXP(player,SkillType.ACROBATICS, plugin.u100);
+										sender.sendMessage(String.format("You were given %s units of exp and now have %s", u100, M2EXP.economy.format(r.balance)));
+										ExperienceAPI.addRawXP(player,SkillType.ACROBATICS, u100);
 										
 							     } 
 								 else {
@@ -158,11 +158,11 @@ public class Buyacrobatics implements CommandExecutor{
 						else if (args[0].equals("200")){
 							sender.sendMessage(String.format("You have %s", M2EXP.economy.format(M2EXP.economy.getBalance(player.getName()))));
 
-							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), plugin.p200);
+							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), p200);
 								
 								if(r.transactionSuccess()) {
-										sender.sendMessage(String.format("You were given %s units of exp and now have %s", plugin.u200, M2EXP.economy.format(r.balance)));
-										ExperienceAPI.addRawXP(player, SkillType.ACROBATICS, plugin.u200);
+										sender.sendMessage(String.format("You were given %s units of exp and now have %s", u200, M2EXP.economy.format(r.balance)));
+										ExperienceAPI.addRawXP(player, SkillType.ACROBATICS, u200);
 										
 							     } 
 								 else {
@@ -174,11 +174,11 @@ public class Buyacrobatics implements CommandExecutor{
 						else if (args[0].equals("300")){
 							sender.sendMessage(String.format("You have %s", M2EXP.economy.format(M2EXP.economy.getBalance(player.getName()))));
 
-							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(), plugin.p300);
+							EconomyResponse r = M2EXP.economy.withdrawPlayer(player.getName(),p300);
 								
 								if(r.transactionSuccess()) {
-										sender.sendMessage(String.format("You were given %s units of exp and now have %s", plugin.u300, M2EXP.economy.format(r.balance)));
-										ExperienceAPI.addRawXP(player,SkillType.ACROBATICS, plugin.u300);
+										sender.sendMessage(String.format("You were given %s units of exp and now have %s", u300, M2EXP.economy.format(r.balance)));
+										ExperienceAPI.addRawXP(player,SkillType.ACROBATICS, u300);
 										
 							     } 
 								 else {

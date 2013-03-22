@@ -36,6 +36,23 @@ public class Buyherbalism implements CommandExecutor{
 	public Buyherbalism(M2EXP plugin) {
 		this.plugin = plugin;
 	}
+	int unitprice = this.plugin.getModuleConfig("acrobatics").getInt("unitprice");
+	int expunits = this.plugin.getModuleConfig("acrobatics").getInt("expunits");
+	int p5 = unitprice *5;
+	int p10 = unitprice *10;
+	int p20 = unitprice *20;
+	int p50 = unitprice *50;
+	int p100 = unitprice * 100;
+	int p200 = unitprice * 200;
+	int p300 = unitprice * 300;
+	int u5 = expunits * 5;
+	int u10 = expunits * 10;
+	int u20 = expunits * 20;
+	int u50 = expunits * 50;
+	int u100 = expunits * 100;
+	int u200 = expunits * 200;
+	int u300 = expunits *300;
+	
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
 		try{
