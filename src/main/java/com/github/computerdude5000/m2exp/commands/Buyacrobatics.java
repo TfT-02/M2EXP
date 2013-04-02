@@ -65,7 +65,7 @@ public class Buyacrobatics implements CommandExecutor {
 
 				if (sender instanceof Player) {
 					Player player = (Player) sender;
-					if (plugin.perms.has(player, "m2exp.buy.acrobatics")) {
+					if (M2EXP.perms.has(player, "m2exp.buy.acrobatics")) {
 						if (args[0].equals("info")) {
 							player.sendMessage("Buy Acrobatics EXP");
 							player.sendMessage("Price for 5 Units is: " + p5

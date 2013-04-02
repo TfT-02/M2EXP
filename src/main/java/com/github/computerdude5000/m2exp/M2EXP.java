@@ -22,9 +22,7 @@ import net.milkbowl.vault.permission.Permission;
 
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -64,33 +62,7 @@ public class M2EXP extends JavaPlugin implements Listener {
 
 	// public int unitexp = this.getConfig().getInt("unit.exp");
 	// public double unitprice = this.getConfig().getInt("unit.price");
-	public int unitexp = 20;
-	public int unitprice = 10;
-
-	public int u400 = unitexp * 400;
-	public double p400 = unitprice * 400;
-
-	public int u300 = unitexp * 300;
-	public double p300 = unitprice * 300;
-
-	public int u200 = unitexp * 200;
-	public double p200 = unitprice * 200;
-
-	public int u100 = unitexp * 100;
-	public double p100 = unitprice * 100;
-
-	public int u50 = unitexp * 50;
-	public double p50 = unitprice * 50;
-
-	public int u20 = unitexp * 20;
-	public double p20 = unitprice * 20;
-
-	public int u10 = unitexp * 10;
-	public double p10 = unitprice * 10;
-
-	public int u5 = unitexp * 5;
-	public double p5 = unitprice * 5;
-
+	
 	public void onDisable() {
 		logger.info(chatprefix + "Goodbye!");
 

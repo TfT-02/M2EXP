@@ -36,9 +36,9 @@ public class Buyfishing implements CommandExecutor {
 		this.plugin = plugin;
 	}
 
-	private int unitprice = this.plugin.getModuleConfig("acrobatics").getInt(
+	private int unitprice = this.plugin.getModuleConfig("fishing").getInt(
 			"unitprice");
-	private int expunits = this.plugin.getModuleConfig("acrobatics").getInt(
+	private int expunits = this.plugin.getModuleConfig("fishing").getInt(
 			"expunits");
 	private int p5 = unitprice * 5;
 	private int p10 = unitprice * 10;
@@ -85,15 +85,15 @@ public class Buyfishing implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p5);
+								player.getName(), p5);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u5,
+											u5,
 											M2EXP.economy.format(r.balance)));
 							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
-									plugin.u5);
+									u5);
 
 						} else {
 							sender.sendMessage(String.format(
@@ -106,15 +106,15 @@ public class Buyfishing implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p10);
+								player.getName(), p10);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u10,
+											u10,
 											M2EXP.economy.format(r.balance)));
 							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
-									plugin.u10);
+									u10);
 
 						} else {
 							sender.sendMessage(String.format(
@@ -128,15 +128,15 @@ public class Buyfishing implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p20);
+								player.getName(), p20);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u20,
+											u20,
 											M2EXP.economy.format(r.balance)));
 							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
-									plugin.u20);
+									u20);
 
 						} else {
 							sender.sendMessage(String.format(
@@ -150,15 +150,15 @@ public class Buyfishing implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p50);
+								player.getName(),p50);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u50,
+											u50,
 											M2EXP.economy.format(r.balance)));
 							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
-									plugin.u50);
+									u50);
 
 						} else {
 							sender.sendMessage(String.format(
@@ -172,15 +172,15 @@ public class Buyfishing implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p100);
+								player.getName(), p100);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u100,
+											u100,
 											M2EXP.economy.format(r.balance)));
 							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
-									plugin.u100);
+									u100);
 
 						} else {
 							sender.sendMessage(String.format(
@@ -194,15 +194,15 @@ public class Buyfishing implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p200);
+								player.getName(),p200);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u200,
+											u200,
 											M2EXP.economy.format(r.balance)));
 							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
-									plugin.u200);
+									u200);
 
 						} else {
 							sender.sendMessage(String.format(
@@ -216,15 +216,15 @@ public class Buyfishing implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p300);
+								player.getName(),p300);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u300,
+											u300,
 											M2EXP.economy.format(r.balance)));
 							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
-									plugin.u300);
+									u300);
 
 						} else {
 							sender.sendMessage(String.format(
