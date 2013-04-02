@@ -27,7 +27,7 @@ import org.bukkit.entity.Player;
 import com.github.computerdude5000.m2exp.M2EXP;
 
 import com.gmail.nossr50.api.ExperienceAPI;
-import com.gmail.nossr50.datatypes.SkillType;
+import com.gmail.nossr50.datatypes.skills.SkillType;
 
 public class Buyfishing implements CommandExecutor {
 	private M2EXP plugin;
@@ -65,7 +65,7 @@ public class Buyfishing implements CommandExecutor {
 					if (args[0].equals("info")) {
 						player.sendMessage("Buy Fishing EXP");
 						player.sendMessage("Price for 5 Units is: "
-								+ " and gives you: " + " Exp of Fishing");
+								+p5+ " and gives you: " + " Exp of Fishing");
 						player.sendMessage("Price for 10 Units is: "
 								+ " and gives you: " + " Exp of Fishing");
 						player.sendMessage("Price for 20 Units is: "
@@ -92,7 +92,7 @@ public class Buyfishing implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u5,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.FISHING,
+							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
 									plugin.u5);
 
 						} else {
@@ -113,7 +113,7 @@ public class Buyfishing implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u10,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.FISHING,
+							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
 									plugin.u10);
 
 						} else {
@@ -135,7 +135,7 @@ public class Buyfishing implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u20,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.FISHING,
+							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
 									plugin.u20);
 
 						} else {
@@ -157,7 +157,7 @@ public class Buyfishing implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u50,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.FISHING,
+							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
 									plugin.u50);
 
 						} else {
@@ -179,7 +179,7 @@ public class Buyfishing implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u100,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.FISHING,
+							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
 									plugin.u100);
 
 						} else {
@@ -201,7 +201,7 @@ public class Buyfishing implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u200,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.FISHING,
+							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
 									plugin.u200);
 
 						} else {
@@ -223,7 +223,7 @@ public class Buyfishing implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u300,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.FISHING,
+							ExperienceAPI.addRawXP(player, SkillType.FISHING.name(),
 									plugin.u300);
 
 						} else {

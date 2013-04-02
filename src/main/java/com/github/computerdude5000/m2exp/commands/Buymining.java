@@ -27,7 +27,7 @@ import org.bukkit.entity.Player;
 import com.github.computerdude5000.m2exp.M2EXP;
 
 import com.gmail.nossr50.api.ExperienceAPI;
-import com.gmail.nossr50.datatypes.SkillType;
+import com.gmail.nossr50.datatypes.skills.SkillType;
 
 public class Buymining implements CommandExecutor {
 	private M2EXP plugin;
@@ -92,7 +92,7 @@ public class Buymining implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u5,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.MINING,
+							ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
 									plugin.u5);
 
 						} else {
@@ -113,7 +113,7 @@ public class Buymining implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u10,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.MINING,
+							ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
 									plugin.u10);
 
 						} else {
@@ -135,7 +135,7 @@ public class Buymining implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u20,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.MINING,
+							ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
 									plugin.u20);
 
 						} else {
@@ -157,7 +157,7 @@ public class Buymining implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u50,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.MINING,
+							ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
 									plugin.u50);
 
 						} else {
@@ -179,7 +179,7 @@ public class Buymining implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u100,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.MINING,
+							ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
 									plugin.u100);
 
 						} else {
@@ -201,7 +201,7 @@ public class Buymining implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u200,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.MINING,
+							ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
 									plugin.u200);
 
 						} else {
@@ -223,7 +223,7 @@ public class Buymining implements CommandExecutor {
 									.format("You were given %s units of exp and now have %s",
 											plugin.u300,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.MINING,
+							ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
 									plugin.u300);
 
 						} else {

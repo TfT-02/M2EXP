@@ -27,7 +27,7 @@ import org.bukkit.entity.Player;
 import com.github.computerdude5000.m2exp.M2EXP;
 
 import com.gmail.nossr50.api.ExperienceAPI;
-import com.gmail.nossr50.datatypes.SkillType;
+import com.gmail.nossr50.datatypes.skills.SkillType;;
 
 public class Buyarchery implements CommandExecutor {
 	private M2EXP plugin;
@@ -36,9 +36,9 @@ public class Buyarchery implements CommandExecutor {
 		this.plugin = plugin;
 	}
 
-	private int unitprice = this.plugin.getModuleConfig("acrobatics").getInt(
+	private int unitprice = this.plugin.getModuleConfig("archery").getInt(
 			"unitprice");
-	private int expunits = this.plugin.getModuleConfig("acrobatics").getInt(
+	private int expunits = this.plugin.getModuleConfig("archery").getInt(
 			"expunits");
 	private int p5 = unitprice * 5;
 	private int p10 = unitprice * 10;
@@ -65,19 +65,19 @@ public class Buyarchery implements CommandExecutor {
 					if (args[0].equals("info")) {
 						player.sendMessage("Buy Archery EXP");
 						player.sendMessage("Price for 5 Units is: "
-								+ " and gives you: " + " Exp of Archery");
+								+p5+ " and gives you: " +u5+ " Exp of Archery");
 						player.sendMessage("Price for 10 Units is: "
-								+ " and gives you: " + " Exp of Archery");
+								+p10+ " and gives you: " +u10+ " Exp of Archery");
 						player.sendMessage("Price for 20 Units is: "
-								+ " and gives you: " + " Exp of Archery");
+								+p20+ " and gives you: " +u20+ " Exp of Archery");
 						player.sendMessage("Price for 50 Units is: "
-								+ " and gives you: " + " Exp of Archery");
+								+p50+ " and gives you: " +u50+ " Exp of Archery");
 						player.sendMessage("Price for 100 Units is: "
-								+ " and gives you: " + " Exp of Archery");
+								+p100+ " and gives you: " +u100+ " Exp of Archery");
 						player.sendMessage("Price for 200 Units is: "
-								+ " and gives you: " + " Exp of Archery");
+								+p200+ " and gives you: " +u200+ " Exp of Archery");
 						player.sendMessage("Price for 300 Units is: "
-								+ " and gives you: " + " Exp of Archery");
+								+p300+ " and gives you: " +u300+ " Exp of Archery");
 						player.sendMessage("Do /barchery and the number of units IE: /barchery 20");
 					} else if (args[0].equals("5")) {
 						sender.sendMessage(String.format("You have %s",
@@ -85,15 +85,15 @@ public class Buyarchery implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p5);
+								player.getName(), p5);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u5,
+											u5,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.ARCHERY,
-									plugin.u5);
+							ExperienceAPI.addRawXP(player, SkillType.ARCHERY.name(),
+									u5);
 
 						} else {
 							sender.sendMessage(String.format(
@@ -106,15 +106,15 @@ public class Buyarchery implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p10);
+								player.getName(), p10);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u10,
+											u10,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.ARCHERY,
-									plugin.u10);
+							ExperienceAPI.addRawXP(player, SkillType.ARCHERY.name(),
+									u10);
 
 						} else {
 							sender.sendMessage(String.format(
@@ -128,15 +128,15 @@ public class Buyarchery implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p20);
+								player.getName(), p20);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u20,
+											u20,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.ARCHERY,
-									plugin.u20);
+							ExperienceAPI.addRawXP(player, SkillType.ARCHERY.name(),
+									u20);
 
 						} else {
 							sender.sendMessage(String.format(
@@ -150,15 +150,15 @@ public class Buyarchery implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p50);
+								player.getName(), p50);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u50,
+											u50,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.ARCHERY,
-									plugin.u50);
+							ExperienceAPI.addRawXP(player, SkillType.ARCHERY.name(),
+									u50);
 
 						} else {
 							sender.sendMessage(String.format(
@@ -172,15 +172,15 @@ public class Buyarchery implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p100);
+								player.getName(), p100);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u100,
+											u100,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.ARCHERY,
-									plugin.u100);
+							ExperienceAPI.addRawXP(player, SkillType.ARCHERY.name(),
+									u100);
 
 						} else {
 							sender.sendMessage(String.format(
@@ -194,15 +194,15 @@ public class Buyarchery implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p200);
+								player.getName(), p200);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u200,
+											u200,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.ARCHERY,
-									plugin.u200);
+							ExperienceAPI.addRawXP(player, SkillType.ARCHERY.name(),
+								u200);
 
 						} else {
 							sender.sendMessage(String.format(
@@ -216,15 +216,15 @@ public class Buyarchery implements CommandExecutor {
 										.getBalance(player.getName()))));
 
 						EconomyResponse r = M2EXP.economy.withdrawPlayer(
-								player.getName(), plugin.p300);
+								player.getName(), p300);
 
 						if (r.transactionSuccess()) {
 							sender.sendMessage(String
 									.format("You were given %s units of exp and now have %s",
-											plugin.u300,
+											u300,
 											M2EXP.economy.format(r.balance)));
-							ExperienceAPI.addRawXP(player, SkillType.ARCHERY,
-									plugin.u300);
+							ExperienceAPI.addRawXP(player, SkillType.ARCHERY.name(),
+									u300);
 
 						} else {
 							sender.sendMessage(String.format(

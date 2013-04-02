@@ -27,8 +27,8 @@ import org.bukkit.entity.Player;
 import com.github.computerdude5000.m2exp.M2EXP;
 
 import com.gmail.nossr50.api.ExperienceAPI;
-import com.gmail.nossr50.datatypes.McMMOPlayer;
-import com.gmail.nossr50.datatypes.SkillType;
+import com.gmail.nossr50.datatypes.player.McMMOPlayer;
+import com.gmail.nossr50.datatypes.skills.SkillType;
 
 public class Buyacrobatics implements CommandExecutor {
 	private M2EXP plugin;
@@ -104,7 +104,7 @@ public class Buyacrobatics implements CommandExecutor {
 												u5,
 												M2EXP.economy.format(r.balance)));
 								ExperienceAPI.addRawXP(player,
-										SkillType.ACROBATICS, u5);
+										SkillType.ACROBATICS.name(), u5);
 
 							} else {
 								sender.sendMessage(String.format(
@@ -125,7 +125,7 @@ public class Buyacrobatics implements CommandExecutor {
 												u10,
 												M2EXP.economy.format(r.balance)));
 								ExperienceAPI.addRawXP(player,
-										SkillType.ACROBATICS, u10);
+										SkillType.ACROBATICS.name(), u10);
 
 							} else {
 								sender.sendMessage(String.format(
@@ -147,7 +147,7 @@ public class Buyacrobatics implements CommandExecutor {
 												u20,
 												M2EXP.economy.format(r.balance)));
 								ExperienceAPI.addRawXP(player,
-										SkillType.ACROBATICS, u20);
+										SkillType.ACROBATICS.name(), u20);
 
 							} else {
 								sender.sendMessage(String.format(
@@ -169,7 +169,7 @@ public class Buyacrobatics implements CommandExecutor {
 												u50,
 												M2EXP.economy.format(r.balance)));
 								ExperienceAPI.addRawXP(player,
-										SkillType.ACROBATICS, u50);
+										SkillType.ACROBATICS.name(), u50);
 
 							} else {
 								sender.sendMessage(String.format(
@@ -191,7 +191,7 @@ public class Buyacrobatics implements CommandExecutor {
 												u100,
 												M2EXP.economy.format(r.balance)));
 								ExperienceAPI.addRawXP(player,
-										SkillType.ACROBATICS, u100);
+										SkillType.ACROBATICS.name(), u100);
 
 							} else {
 								sender.sendMessage(String.format(
@@ -213,7 +213,7 @@ public class Buyacrobatics implements CommandExecutor {
 												u200,
 												M2EXP.economy.format(r.balance)));
 								ExperienceAPI.addRawXP(player,
-										SkillType.ACROBATICS, u200);
+										SkillType.ACROBATICS.name(), u200);
 
 							} else {
 								sender.sendMessage(String.format(
@@ -235,7 +235,7 @@ public class Buyacrobatics implements CommandExecutor {
 												u300,
 												M2EXP.economy.format(r.balance)));
 								ExperienceAPI.addRawXP(player,
-										SkillType.ACROBATICS, u300);
+										SkillType.ACROBATICS.name(), u300);
 
 							} else {
 								sender.sendMessage(String.format(
