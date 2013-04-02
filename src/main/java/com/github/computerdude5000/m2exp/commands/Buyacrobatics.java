@@ -27,13 +27,11 @@ import org.bukkit.entity.Player;
 import com.github.computerdude5000.m2exp.M2EXP;
 
 import com.gmail.nossr50.api.ExperienceAPI;
-import com.gmail.nossr50.datatypes.player.McMMOPlayer;
 import com.gmail.nossr50.datatypes.skills.SkillType;
 
 public class Buyacrobatics implements CommandExecutor {
 	private M2EXP plugin;
-	public SkillType ACROBATICS;
-	public McMMOPlayer mcmmoplayer;
+	
 
 	public Buyacrobatics(M2EXP plugin) {
 		this.plugin = plugin;
