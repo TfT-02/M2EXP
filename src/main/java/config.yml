@@ -1,0 +1,49 @@
+skill:
+  acrobatics:
+    unitprice: 20
+    sellprice: 20
+    expunits: 20
+  archery:
+    unitprice: 20
+    sellprice: 20
+    expunits: 20
+  axes:
+    unitprice: 20
+    sellprice: 20
+    expunits: 20
+  excavation:
+    unitprice: 20
+    sellprice: 20
+    expunits: 20
+  fishing:
+    unitprice: 20
+    sellprice: 20
+    expunits: 20
+  herbalism:
+    unitprice: 20
+    sellprice: 20
+    expunits: 20
+  mining:
+    unitprice: 20
+    sellprice: 20
+    expunits: 20
+  repair:
+    unitprice: 20
+    sellprice: 20
+    expunits: 20
+  swords:
+    unitprice: 20
+    sellprice: 20
+    expunits: 20
+  taming:
+    unitprice: 20
+    sellprice: 20
+    expunits: 20
+  unarmed:
+    unitprice: 20
+    sellprice: 20
+    expunits: 20
+  woodcutting:
+    unitprice: 20
+    sellprice: 20
+    expunits: 20
