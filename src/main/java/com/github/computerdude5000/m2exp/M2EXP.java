@@ -124,18 +124,18 @@ public class M2EXP extends JavaPlugin implements Listener {
 	}
 
 	/**
-	 * For module use: Get a ConfigurationSection in the root config.yml for the
+	 * For command use: Get a ConfigurationSection in the root config.yml for the
 	 * module itself
 	 * 
-	 * @param moduleName
+	 * @param commandName
 	 *            Name of modules's section in config.yml
 	 * @return ConfigurationSection from root of config.yml
 	 */
-	public ConfigurationSection getModuleConfig(String moduleName) {
+	public ConfigurationSection getModuleConfig(String commandName) {
 		return YamlConfiguration
 				.loadConfiguration(new File(getDataFolder(), "config.yml"))
 				.getConfigurationSection("skill")
-				.getConfigurationSection(moduleName);
+				.getConfigurationSection(commandName);
 	}
 
 	// @EventHandler
