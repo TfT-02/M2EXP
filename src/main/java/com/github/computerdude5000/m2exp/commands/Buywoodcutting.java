@@ -31,15 +31,17 @@ import com.gmail.nossr50.datatypes.skills.SkillType;
 
 public class Buywoodcutting implements CommandExecutor {
 	private M2EXP plugin;
-
+	private int unitprice;
+	private int expunits;
+	
 	public Buywoodcutting(M2EXP plugin) {
 		this.plugin = plugin;
+		 unitprice = this.plugin.getModuleConfig("woodcutting").getInt(
+					"unitprice");
+		 expunits = this.plugin.getModuleConfig("woodcutting").getInt(
+					"expunits");
 	}
 
-	private int unitprice = this.plugin.getModuleConfig("woodcutting").getInt(
-			"unitprice");
-	private int expunits = this.plugin.getModuleConfig("woodcutting").getInt(
-			"expunits");
 	private int p5 = unitprice * 5;
 	private int p10 = unitprice * 10;
 	private int p20 = unitprice * 20;
