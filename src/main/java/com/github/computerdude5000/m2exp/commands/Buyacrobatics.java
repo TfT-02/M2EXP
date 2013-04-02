@@ -33,6 +33,21 @@ public class Buyacrobatics implements CommandExecutor {
 	private M2EXP plugin;
 	private int unitprice;
 	private int expunits;
+	private int p5;
+	private int p10;
+	private int p20;
+	private int p50;
+	private int p100;
+	private int p200;
+	private int p300;
+	private int u5;
+	private int u10;
+	private int u20;
+	private int u50;
+	private int u100;
+	private int u200;
+	private int u300;
+	
 	
 	public Buyacrobatics(M2EXP plugin) {
 		this.plugin = plugin;
@@ -40,22 +55,24 @@ public class Buyacrobatics implements CommandExecutor {
 				"unitprice");
 		 expunits = this.plugin.getModuleConfig("acrobatics").getInt(
 					"expunits");
+		 p5 = unitprice * 5;
+		 p10 = unitprice * 10;
+		 p20 = unitprice * 20;
+		 p50 = unitprice * 50;
+		 p100 = unitprice * 100;
+		 p200 = unitprice * 200;
+		 p300 = unitprice * 300;
+		 u5 = expunits * 5;
+		 u10 = expunits * 10;
+		 u20 = expunits * 20;
+		 u50 = expunits * 50;
+		 u100 = expunits * 100;
+		 u200 = expunits * 200;
+		 u300 = expunits * 300;
+		 	 
 	}
 
-	private int p5 = unitprice * 5;
-	private int p10 = unitprice * 10;
-	private int p20 = unitprice * 20;
-	private int p50 = unitprice * 50;
-	private int p100 = unitprice * 100;
-	private int p200 = unitprice * 200;
-	private int p300 = unitprice * 300;
-	private int u5 = expunits * 5;
-	private int u10 = expunits * 10;
-	private int u20 = expunits * 20;
-	private int u50 = expunits * 50;
-	private int u100 = expunits * 100;
-	private int u200 = expunits * 200;
-	private int u300 = expunits * 300;
+
 
 	public boolean onCommand(CommandSender sender, Command cmd,
 			String commandLabel, String[] args) {
