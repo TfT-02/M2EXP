@@ -25,6 +25,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import com.github.computerdude5000.m2exp.M2EXP;
+import com.github.computerdude5000.m2exp.util.MagicNumbers;
 
 import com.gmail.nossr50.api.ExperienceAPI;
 import com.gmail.nossr50.datatypes.skills.SkillType;
@@ -54,20 +55,20 @@ public class Buymining implements CommandExecutor {
 					"unitprice");
 		 expunits = this.plugin.getModuleConfig("mining").getInt(
 					"expunits");
-		 p5 = unitprice * 5;
-		 p10 = unitprice * 10;
-		 p20 = unitprice * 20;
-		 p50 = unitprice * 50;
-		 p100 = unitprice * 100;
-		 p200 = unitprice * 200;
-		 p300 = unitprice * 300;
-		 u5 = expunits * 5;
-		 u10 = expunits * 10;
-		 u20 = expunits * 20;
-		 u50 = expunits * 50;
-		 u100 = expunits * 100;
-		 u200 = expunits * 200;
-		 u300 = expunits * 300;
+		 p5 = unitprice * MagicNumbers.l5;
+		 p10 = unitprice * MagicNumbers.l10;
+		 p20 = unitprice * MagicNumbers.l20;
+		 p50 = unitprice * MagicNumbers.l50;
+		 p100 = unitprice * MagicNumbers.l100;
+		 p200 = unitprice * MagicNumbers.l200;
+		 p300 = unitprice * MagicNumbers.l300;
+		 u5 = expunits * MagicNumbers.l5;
+		 u10 = expunits * MagicNumbers.l10;
+		 u20 = expunits * MagicNumbers.l20;
+		 u50 = expunits * MagicNumbers.l50;
+		 u100 = expunits * MagicNumbers.l100;
+		 u200 = expunits * MagicNumbers.l200;
+		 u300 = expunits * MagicNumbers.l300;
 	}
 	
 
