@@ -79,6 +79,7 @@ public class Buyherbalism implements CommandExecutor {
 
 				if (sender instanceof Player) {
 					Player player = (Player) sender;
+                    if (M2EXP.perms.has(player, "m2exp.buy.herbalism")) {
 					if (args[0].equals("info")) {
 						player.sendMessage("Buy Herbalism EXP");
 						player.sendMessage("Price for 5 Units is: "
@@ -260,7 +261,7 @@ public class Buyherbalism implements CommandExecutor {
 							.println("Sorry you are not a player and you don't have access to this command");
 				}
 			}
-
+            }
 		} catch (ArrayIndexOutOfBoundsException e) {
 			sender.sendMessage("please enter an argument like info,5,10,20,50,100,200,300 ");
 		}

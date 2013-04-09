@@ -28,7 +28,7 @@ import com.github.computerdude5000.m2exp.M2EXP;
 import com.github.computerdude5000.m2exp.util.MagicNumbers;
 
 import com.gmail.nossr50.api.ExperienceAPI;
-import com.gmail.nossr50.datatypes.skills.SkillType;;
+import com.gmail.nossr50.datatypes.skills.SkillType;
 
 public class Buyaxes implements CommandExecutor {
 	private M2EXP plugin;
@@ -80,6 +80,7 @@ public class Buyaxes implements CommandExecutor {
 
 				if (sender instanceof Player) {
 					Player player = (Player) sender;
+                    if (M2EXP.perms.has(player, "m2exp.buy.axes")) {
 					if (args[0].equals("info")) {
 						player.sendMessage("Buy Axes EXP");
 						player.sendMessage("Price for 5 Units is: "
@@ -261,7 +262,7 @@ public class Buyaxes implements CommandExecutor {
 							.println("Sorry you are not a player and you don't have access to this command");
 				}
 			}
-
+            }
 		} catch (ArrayIndexOutOfBoundsException e) {
 			sender.sendMessage("please enter an argument like info,5,10,20,50,100,200,300 ");
 		}
