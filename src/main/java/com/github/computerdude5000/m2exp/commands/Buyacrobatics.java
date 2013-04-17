@@ -78,7 +78,7 @@ public class Buyacrobatics implements CommandExecutor
     {
         try
         {
-            if (cmd.getName().equalsIgnoreCase("bacrobatics"))
+            if (cmd.getName().equalsIgnoreCase("bacrobatics")&&M2EXP.perms.has(sender, "m2exp.buy.acrobatics"))
             {
 
                 if (sender instanceof Player)

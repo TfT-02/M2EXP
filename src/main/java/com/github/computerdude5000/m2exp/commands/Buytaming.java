@@ -76,7 +76,7 @@ public class Buytaming implements CommandExecutor
     {
         try
         {
-            if (cmd.getName().equalsIgnoreCase("btaming"))
+            if (cmd.getName().equalsIgnoreCase("btaming")&&M2EXP.perms.has(sender, "m2exp.buy.taming"))
             {
 
                 if (sender instanceof Player)

@@ -76,7 +76,7 @@ public class Buyunarmed implements CommandExecutor
     {
         try
         {
-        if (cmd.getName().equalsIgnoreCase("bunarmed"))
+        if (cmd.getName().equalsIgnoreCase("bunarmed")&&M2EXP.perms.has(sender, "m2exp.buy.unarmed"))
         {
 
             if (sender instanceof Player)

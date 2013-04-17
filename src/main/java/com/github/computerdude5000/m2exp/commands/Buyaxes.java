@@ -76,7 +76,7 @@ public class Buyaxes implements CommandExecutor
     {
         try
         {
-            if (cmd.getName().equalsIgnoreCase("baxes"))
+            if (cmd.getName().equalsIgnoreCase("baxes")&&M2EXP.perms.has(sender,"m2exp.buy.axes"))
             {
 
                 if (sender instanceof Player)

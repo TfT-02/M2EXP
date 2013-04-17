@@ -76,7 +76,7 @@ public class Buymining implements CommandExecutor
     {
         try
         {
-            if (cmd.getName().equalsIgnoreCase("bmining"))
+            if (cmd.getName().equalsIgnoreCase("bmining")&&M2EXP.perms.has(sender,"m2exp.buy.mining"))
             {
 
                 if (sender instanceof Player)

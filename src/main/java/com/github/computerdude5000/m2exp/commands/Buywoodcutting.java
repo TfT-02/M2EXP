@@ -72,7 +72,7 @@ public class Buywoodcutting implements CommandExecutor
     {
         try
         {
-            if (cmd.getName().equalsIgnoreCase("bwoodcutting"))
+            if (cmd.getName().equalsIgnoreCase("bwoodcutting")&&M2EXP.perms.has(sender, "m2exp.buy.woodcutting"))
             {
                 if (sender instanceof Player)
                 {

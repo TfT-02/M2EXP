@@ -76,7 +76,7 @@ public class Buyrepair implements CommandExecutor
     {
         try
         {
-            if (cmd.getName().equalsIgnoreCase("brepair"))
+            if (cmd.getName().equalsIgnoreCase("brepair")&&M2EXP.perms.has(sender, "m2exp.buy.repair"))
             {
 
                 if (sender instanceof Player)

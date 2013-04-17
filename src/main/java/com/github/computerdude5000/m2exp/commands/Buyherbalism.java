@@ -76,7 +76,7 @@ public class Buyherbalism implements CommandExecutor
     {
         try
         {
-            if (cmd.getName().equalsIgnoreCase("bherbalism"))
+            if (cmd.getName().equalsIgnoreCase("bherbalism")&&M2EXP.perms.has(sender,"m2exp.buy.herbalism"))
             {
 
                 if (sender instanceof Player)

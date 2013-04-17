@@ -76,7 +76,7 @@ public class Buyexcavation implements CommandExecutor
     {
         try
         {
-            if (cmd.getName().equalsIgnoreCase("bexcavation"))
+            if (cmd.getName().equalsIgnoreCase("bexcavation")&&M2EXP.perms.has(sender, "m2exp.buy.excavation"))
             {
 
                 if (sender instanceof Player)

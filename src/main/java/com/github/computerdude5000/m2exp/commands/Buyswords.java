@@ -76,7 +76,7 @@ public class Buyswords implements CommandExecutor
     {
         try
         {
-            if (cmd.getName().equalsIgnoreCase("bswords"))
+            if (cmd.getName().equalsIgnoreCase("bswords")&&M2EXP.perms.has(sender, "m2exp.buy.swords"))
             {
 
                 if (sender instanceof Player)

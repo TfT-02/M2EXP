@@ -75,7 +75,7 @@ public class Buyarchery implements CommandExecutor
     {
         try
         {
-            if (cmd.getName().equalsIgnoreCase("barchery"))
+            if (cmd.getName().equalsIgnoreCase("barchery")&&M2EXP.perms.has(sender, "m2exp.buy.archery"))
             {
                 if (sender instanceof Player)
                 {
