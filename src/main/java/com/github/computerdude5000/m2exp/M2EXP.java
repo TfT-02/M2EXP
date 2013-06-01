@@ -44,7 +44,6 @@ import java.io.IOException;
 import java.util.logging.Logger;
 
 public class M2EXP extends JavaPlugin implements Listener {
-	// do not change these
 
 	public static Permission perms = null;
 
@@ -53,15 +52,12 @@ public class M2EXP extends JavaPlugin implements Listener {
 	public final String author = "Computerdude5000";
 	public final String contact = "Computerdude5000@gmail.com or http://dev.bukkit.org/server-mods/money-2-exp/";
 	public final String github = "https://github.com/computerdude5000/M2EXP";
-	public final String info = name
-			+ " is a plugin that allows you to buy mcMMO exp to help you lvl up! ";
+	public final String info = name	+ " is a plugin that allows you to buy mcMMO exp to help you lvl up! ";
 
 	public static Economy economy = null;
-	// do not change these
+
 	public Logger logger = Logger.getLogger("M2EXP");
 
-	// public int unitexp = this.getConfig().getInt("unit.exp");
-	// public double unitprice = this.getConfig().getInt("unit.price");
 	
 	public void onDisable() {
 		logger.info(chatprefix + "Goodbye!");
@@ -82,6 +78,7 @@ public class M2EXP extends JavaPlugin implements Listener {
 	}
 
 	public void onEnable() {
+        this.saveDefaultConfig();
 		try {
 			Metrics metrics = new Metrics(this);
 			metrics.start();
@@ -113,8 +110,7 @@ public class M2EXP extends JavaPlugin implements Listener {
 			this.getCommand("bswords").setExecutor(new Buyswords(this));
 			this.getCommand("btaming").setExecutor(new Buytaming(this));
 			this.getCommand("bunarmed").setExecutor(new Buyunarmed(this));
-			this.getCommand("bwoodcutting").setExecutor(
-					new Buywoodcutting(this));
+			this.getCommand("bwoodcutting").setExecutor(new Buywoodcutting(this));
 			this.getCommand("bexcavation").setExecutor(new Buyexcavation(this));
 			this.getCommand("bacrobatics").setExecutor(new Buyacrobatics(this));
 			this.getCommand("baxes").setExecutor(new Buyaxes(this));
@@ -127,8 +123,7 @@ public class M2EXP extends JavaPlugin implements Listener {
 	 * For command use: Get a ConfigurationSection in the root config.yml for the
 	 * module itself
 	 * 
-	 * @param commandName
-	 *            Name of modules's section in config.yml
+	 * @param commandName Name of modules's section in config.yml
 	 * @return ConfigurationSection from root of config.yml
 	 */
 	public ConfigurationSection getModuleConfig(String commandName) {
@@ -137,14 +132,5 @@ public class M2EXP extends JavaPlugin implements Listener {
 				.getConfigurationSection("skill")
 				.getConfigurationSection(commandName);
 	}
-
-	// @EventHandler
-	// public void onPlayerJoin(PlayerJoinEvent event) {
-	// event.getPlayer().sendMessage("Welcome, " +
-	// event.getPlayer().getDisplayName() + "!");
-	// event.getPlayer().sendMessage("M2EXP version 0.0.0.0.0.0.0.1 running!");
-	// event.getPlayer().sendMessage("Enjoy your stay on the server!!");
-
-	// }
 
 }

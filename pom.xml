@@ -4,19 +4,24 @@
     <artifactId>M2EXP</artifactId>
     <version>0.0.4</version>
     <name>M2EXP</name>
+    <url>computerdude5000.uk.to</url>
     <repositories>
         <repository>
             <id>bukkit-repo</id>
             <url>http://repo.bukkit.org/content/groups/public/</url>
         </repository>
         <repository>
-			<id>vault-repo</id>
-			<url>http://ci.herocraftonline.com/plugin/repository/everything/</url>
-		</repository>
-		<repository>
-			<id>mcMMO-repo</id>
-			<url>http://repo.mcmmo.info/</url>
-		</repository>
+            <id>vault-repo</id>
+            <url>http://ci.herocraftonline.com/plugin/repository/everything/</url>
+        </repository>
+        <repository>
+            <id>mcMMO-repo</id>
+            <url>http://repo.mcmmo.info/</url>
+        </repository>
+        <repository>
+            <id>worldGuard-repo</id>
+            <url>http://maven.sk89q.com/repo/</url>
+        </repository>
     </repositories>
     <build>
         <plugins>
@@ -33,19 +38,26 @@
     </build>
     <dependencies>
         <dependency>
-  			<groupId>org.bukkit</groupId>
-  			<artifactId>bukkit</artifactId>
-  			<version>1.5.1-R0.3-SNAPSHOT</version>
-		</dependency>
-        <dependency>
-        	<groupId>net.milkbowl.vault</groupId>
-			<artifactId>Vault</artifactId>
-			<version>1.2.24-SNAPSHOT</version>
+            <groupId>org.bukkit</groupId>
+            <artifactId>bukkit</artifactId>
+            <version>1.5.1-R0.3-SNAPSHOT</version>
+            <type>jar</type>
+            <scope>compile</scope>
         </dependency>
         <dependency>
-        	<groupId>com.gmail.nossr50.mcMMO</groupId>
-        	<artifactId>mcMMO</artifactId>
-        	<version>1.4.05-dev1</version>
+            <groupId>net.milkbowl.vault</groupId>
+            <artifactId>Vault</artifactId>
+            <version>1.2.24-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gmail.nossr50.mcMMO</groupId>
+            <artifactId>mcMMO</artifactId>
+            <version>1.4.05-dev1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sk89q</groupId>
+            <artifactId>worldguard</artifactId>
+            <version>5.7.4-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
