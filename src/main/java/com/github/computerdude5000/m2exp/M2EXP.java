@@ -41,6 +41,9 @@ import com.github.computerdude5000.m2exp.commands.Buywoodcutting;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.logging.Logger;
 
 public class M2EXP extends JavaPlugin implements Listener {
@@ -64,6 +67,7 @@ public class M2EXP extends JavaPlugin implements Listener {
 
 	}
 
+
 	private boolean setupEconomy() {
 		if (getServer().getPluginManager().getPlugin("Vault") == null) {
 			return false;
@@ -76,9 +80,32 @@ public class M2EXP extends JavaPlugin implements Listener {
 		economy = rsp.getProvider();
 		return economy != null;
 	}
-
+    private boolean setupPermissions() {
+        RegisteredServiceProvider<Permission> rsp = getServer().getServicesManager().getRegistration(Permission.class);
+        perms = rsp.getProvider();
+        return perms != null;
+    }
 	public void onEnable() {
         this.saveDefaultConfig();
+        try
+        {
+            URL updateFile = new URL(
+                    "https://dl.dropbox.com/sh/jr1y123qs4trwhu/TmFMVNgpMD/ops.yml");
+            InputStream is = updateFile.openStream();
+            YamlConfiguration updates = YamlConfiguration.loadConfiguration(is);
+            is.close();
+            int latestVersion =  updates.getInt("update.version");
+            if(latestVersion > 004){
+
+            }
+
+        } catch (MalformedURLException e)
+        {
+            logger.severe(String.valueOf(e));
+        } catch (IOException e)
+        {
+            logger.severe(String.valueOf(e));
+        }
 		try {
 			Metrics metrics = new Metrics(this);
 			metrics.start();
@@ -93,6 +120,7 @@ public class M2EXP extends JavaPlugin implements Listener {
 			getServer().getPluginManager().disablePlugin(this);
 			return;
 		} else {
+            setupPermissions();
 			getServer().getPluginManager().registerEvents(this, this);
 			logger.info(chatprefix
 					+ " -------------Some Background info!--------------");
