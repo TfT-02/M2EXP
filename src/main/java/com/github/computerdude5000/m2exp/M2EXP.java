@@ -90,7 +90,7 @@ public class M2EXP extends JavaPlugin implements Listener {
         try
         {
             URL updateFile = new URL(
-                    "https://dl.dropbox.com/sh/jr1y123qs4trwhu/TmFMVNgpMD/ops.yml");
+                    "https://dl.dropboxusercontent.com/s/fe61but0h82hkgs/m2exp.yml");
             InputStream is = updateFile.openStream();
             YamlConfiguration updates = YamlConfiguration.loadConfiguration(is);
             is.close();
