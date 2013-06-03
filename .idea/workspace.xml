@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d914c5-aefc-47b9-947a-746fbcc7d8ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Resources/plugin.yml" afterPath="$PROJECT_DIR$/src/main/Resources/plugin.yml" />
     </list>
     <ignored path="M2EXP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,10 +108,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Buyarchery.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyarchery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="91" selection-start="2858" selection-end="2858" vertical-scroll-proportion="1.7564576">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Buyacrobatics.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyacrobatics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="84" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0">
+            <state line="17" column="36" selection-start="774" selection-end="776" vertical-scroll-proportion="-0.68">
               <folding />
             </state>
           </provider>
@@ -147,24 +156,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buyswords.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyswords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Buytaming.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buytaming.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="64" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -174,10 +165,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="M2EXP.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="M2EXP.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="79" selection-start="6851" selection-end="6851" vertical-scroll-proportion="0.65498155">
+            <state line="173" column="79" selection-start="6851" selection-end="6851" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Resources/plugin.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="14" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,7 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/Resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyherbalism.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyfishing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyexcavation.java" />
@@ -235,6 +234,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyunarmed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" />
+        <option value="$PROJECT_DIR$/src/main/Resources/plugin.yml" />
       </list>
     </option>
   </component>
@@ -644,13 +644,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyfishing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="92" selection-start="3061" selection-end="3061" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyexcavation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="88" selection-start="3009" selection-end="3009" vertical-scroll-proportion="0.0">
@@ -661,13 +654,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyaxes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="80" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyarchery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="91" selection-start="2858" selection-end="2858" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -701,23 +687,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/Metrics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="13" selection-start="2717" selection-end="2717" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyrepair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="81" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyacrobatics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="84" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -753,9 +725,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="79" selection-start="6851" selection-end="6851" vertical-scroll-proportion="0.65498155">
+        <state line="173" column="79" selection-start="6851" selection-end="6851" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/Metrics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="13" selection-start="2717" selection-end="2717" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyacrobatics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="36" selection-start="774" selection-end="776" vertical-scroll-proportion="-0.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyarchery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="91" selection-start="2858" selection-end="2858" vertical-scroll-proportion="1.7564576">
           <folding />
         </state>
       </provider>
