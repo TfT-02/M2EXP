@@ -22,7 +22,11 @@ import net.milkbowl.vault.permission.Permission;
 
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -56,7 +60,7 @@ public class M2EXP extends JavaPlugin implements Listener {
 	public final String contact = "Computerdude5000@gmail.com or http://dev.bukkit.org/server-mods/money-2-exp/";
 	public final String github = "https://github.com/computerdude5000/M2EXP";
 	public final String info = name	+ " is a plugin that allows you to buy mcMMO exp to help you lvl up! ";
-
+    private boolean update = false;
 	public static Economy economy = null;
 
 	public Logger logger = Logger.getLogger("M2EXP");
@@ -96,7 +100,8 @@ public class M2EXP extends JavaPlugin implements Listener {
             is.close();
             int latestVersion =  updates.getInt("update.version");
             if(latestVersion > 004){
-
+             update = true;
+                logger.info("New update available");
             }
 
         } catch (MalformedURLException e)
@@ -160,5 +165,13 @@ public class M2EXP extends JavaPlugin implements Listener {
 				.getConfigurationSection("skill")
 				.getConfigurationSection(commandName);
 	}
-
+    @EventHandler(priority = EventPriority.MONITOR)
+    public void onPlayerJoin(PlayerJoinEvent event)
+    {
+        Player player = event.getPlayer();
+        if(player.isOp()&& update == true){
+           player.sendMessage("Hey there's an update for M2EXP you Should go and install it :D");
+            player.sendMessage("it can be found at http://dev.bukkit.org/bukkit-mods/money-2-exp/");
+        }
+    }
 }

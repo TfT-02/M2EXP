@@ -47,7 +47,7 @@
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/config/MasterReadOnlyConfigHandler.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1369537232593" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1369538424890" ignored="false" />
     <file path="/pom.xml" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1370070860000" ignored="false" />
-    <file path="/M2EXP.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1370216255375" ignored="false" />
+    <file path="/M2EXP.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1370219161031" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +120,7 @@
       <file leaf-file-name="Buymining.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buymining.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="82" selection-start="2512" selection-end="2512" vertical-scroll-proportion="0.0">
+            <state line="78" column="99" selection-start="2754" selection-end="2770" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,7 +177,7 @@
       <file leaf-file-name="M2EXP.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="59" selection-start="3320" selection-end="3320" vertical-scroll-proportion="0.4391144">
+            <state line="175" column="44" selection-start="6853" selection-end="6853" vertical-scroll-proportion="0.8118081">
               <folding />
             </state>
           </provider>
@@ -708,27 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buymining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="82" selection-start="2512" selection-end="2512" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="55" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/M2EXP.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="74" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyrepair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="81" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.0">
@@ -753,9 +732,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buymining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="99" selection-start="2754" selection-end="2770" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="55" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2EXP.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="74" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="59" selection-start="3320" selection-end="3320" vertical-scroll-proportion="0.4391144">
+        <state line="175" column="44" selection-start="6853" selection-end="6853" vertical-scroll-proportion="0.8118081">
           <folding />
         </state>
       </provider>
