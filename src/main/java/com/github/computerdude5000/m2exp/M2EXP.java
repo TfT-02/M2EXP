@@ -61,6 +61,7 @@ public class M2EXP extends JavaPlugin implements Listener {
 	public final String github = "https://github.com/computerdude5000/M2EXP";
 	public final String info = name	+ " is a plugin that allows you to buy mcMMO exp to help you lvl up! ";
     private boolean update = false;
+    private int latestVersion;
 	public static Economy economy = null;
 
 	public Logger logger = Logger.getLogger("M2EXP");
@@ -98,10 +99,10 @@ public class M2EXP extends JavaPlugin implements Listener {
             InputStream is = updateFile.openStream();
             YamlConfiguration updates = YamlConfiguration.loadConfiguration(is);
             is.close();
-            int latestVersion =  updates.getInt("update.version");
-            if(latestVersion > 004){
+          latestVersion =  updates.getInt("update.version");
+            if(latestVersion > 006){
              update = true;
-                logger.info("New update available");
+                logger.info(chatprefix+"New update available version is "+latestVersion + " it can be found at http://dev.bukkit.org/bukkit-mods/money-2-exp/");
             }
 
         } catch (MalformedURLException e)
@@ -170,7 +171,7 @@ public class M2EXP extends JavaPlugin implements Listener {
     {
         Player player = event.getPlayer();
         if(player.isOp()&& update == true){
-           player.sendMessage("Hey there's an update for M2EXP you Should go and install it :D");
+           player.sendMessage("Hey there's an update for M2EXP" +latestVersion+ " you Should go and install it :D");
             player.sendMessage("it can be found at http://dev.bukkit.org/bukkit-mods/money-2-exp/");
         }
     }
