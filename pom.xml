@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.computerdude5000.m2exp</groupId>
     <artifactId>M2EXP</artifactId>
-    <version>0.0.6</version>
+    <version>0.1.0</version>
     <name>M2EXP</name>
     <url>computerdude5000.uk.to</url>
     <repositories>

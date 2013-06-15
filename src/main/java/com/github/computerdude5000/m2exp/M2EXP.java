@@ -62,6 +62,7 @@ public class M2EXP extends JavaPlugin implements Listener {
 	public final String info = name	+ " is a plugin that allows you to buy mcMMO exp to help you lvl up! ";
     private boolean update = false;
     private int latestVersion;
+    private String updateReason = "";
 	public static Economy economy = null;
 
 	public Logger logger = Logger.getLogger("M2EXP");
@@ -100,9 +101,11 @@ public class M2EXP extends JavaPlugin implements Listener {
             YamlConfiguration updates = YamlConfiguration.loadConfiguration(is);
             is.close();
           latestVersion =  updates.getInt("update.version");
-            if(latestVersion > 006){
+          updateReason = updates.getString("update.reason");
+            if(latestVersion > 10){
              update = true;
                 logger.info(chatprefix+"New update available version is "+latestVersion + " it can be found at http://dev.bukkit.org/bukkit-mods/money-2-exp/");
+                logger.info(updateReason);
             }
 
         } catch (MalformedURLException e)
@@ -166,13 +169,20 @@ public class M2EXP extends JavaPlugin implements Listener {
 				.getConfigurationSection("skill")
 				.getConfigurationSection(commandName);
 	}
+
+    private ConfigurationSection getPluginConfig(String name) {
+        return YamlConfiguration
+                .loadConfiguration(new File(getDataFolder(), "config.yml"))
+                .getConfigurationSection("general")
+                .getConfigurationSection(name);
+    }
     @EventHandler(priority = EventPriority.MONITOR)
     public void onPlayerJoin(PlayerJoinEvent event)
     {
         Player player = event.getPlayer();
-        if(player.isOp()&& update == true){
-           player.sendMessage("Hey there's an update for M2EXP" +latestVersion+ " you Should go and install it :D");
-            player.sendMessage("it can be found at http://dev.bukkit.org/bukkit-mods/money-2-exp/");
+        if(player.isOp()&& update == true && getPluginConfig("update").getBoolean("notification") == true){
+           player.sendMessage("Hello " +player.getName().toString()+"! an update for M2EXP" +latestVersion+ " you Should go and install it :D");
+           player.sendMessage("it can be found at http://dev.bukkit.org/bukkit-mods/money-2-exp/");
         }
     }
 }
