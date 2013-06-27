@@ -114,7 +114,8 @@ public class Buywoodcutting implements CommandExecutor
                                                 M2EXP.economy.format(r.balance)));
                                 ExperienceAPI.addRawXP(player,
                                         "WOODCUTTING", u5);
-
+                                this.plugin.setExp_sold(u5);
+                                this.plugin.setMoney_lost(p5);
                             } else
                             {
                                 sender.sendMessage(String.format( "An error occured: %s", r.errorMessage));
@@ -137,7 +138,8 @@ public class Buywoodcutting implements CommandExecutor
                                                 M2EXP.economy.format(r.balance)));
                                 ExperienceAPI.addRawXP(player,
                                         "WOODCUTTING", u10);
-
+                                this.plugin.setExp_sold(u10);
+                                this.plugin.setMoney_lost(p10);
                             } else
                             {
                                 sender.sendMessage(String.format(
@@ -162,7 +164,8 @@ public class Buywoodcutting implements CommandExecutor
                                                 M2EXP.economy.format(r.balance)));
                                 ExperienceAPI.addRawXP(player,
                                         SkillType.WOODCUTTING.name(), u20);
-
+                                this.plugin.setExp_sold(u20);
+                                this.plugin.setMoney_lost(p20);
                             } else
                             {
                                 sender.sendMessage(String.format(
@@ -187,7 +190,8 @@ public class Buywoodcutting implements CommandExecutor
                                                 M2EXP.economy.format(r.balance)));
                                 ExperienceAPI.addRawXP(player,
                                         SkillType.WOODCUTTING.name(), u50);
-
+                                this.plugin.setExp_sold(u50);
+                                this.plugin.setMoney_lost(p50);
                             } else
                             {
                                 sender.sendMessage(String.format(
@@ -212,7 +216,8 @@ public class Buywoodcutting implements CommandExecutor
                                                 M2EXP.economy.format(r.balance)));
                                 ExperienceAPI.addRawXP(player,
                                         SkillType.WOODCUTTING.name(), u100);
-
+                                this.plugin.setExp_sold(u100);
+                                this.plugin.setMoney_lost(p100);
                             } else
                             {
                                 sender.sendMessage(String.format(
@@ -234,7 +239,8 @@ public class Buywoodcutting implements CommandExecutor
                                 sender.sendMessage(String.format("You were given %s units of exp and now have %s",
                                         u200, M2EXP.economy.format(r.balance)));
                                 ExperienceAPI.addRawXP(player, SkillType.WOODCUTTING.name(), u200);
-
+                                this.plugin.setExp_sold(u200);
+                                this.plugin.setMoney_lost(p200);
                             } else
                             {
                                 sender.sendMessage(String.format("An error occured: %s", r.errorMessage));
@@ -256,7 +262,8 @@ public class Buywoodcutting implements CommandExecutor
                                                 M2EXP.economy.format(r.balance)));
                                 ExperienceAPI.addRawXP(player,
                                         SkillType.WOODCUTTING.name(), u300);
-
+                                this.plugin.setExp_sold(u300);
+                                this.plugin.setMoney_lost(p300);
                             } else
                             {
                                 sender.sendMessage(String.format(

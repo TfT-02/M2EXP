@@ -119,7 +119,8 @@ public class Buyunarmed implements CommandExecutor
                                         M2EXP.economy.format(r.balance)));
                         ExperienceAPI.addRawXP(player, SkillType.UNARMED.name(),
                                 u5);
-
+                        this.plugin.setExp_sold(u5);
+                        this.plugin.setMoney_lost(p5);
                     } else
                     {
                         sender.sendMessage(String.format(
@@ -143,7 +144,8 @@ public class Buyunarmed implements CommandExecutor
                                         M2EXP.economy.format(r.balance)));
                         ExperienceAPI.addRawXP(player, SkillType.UNARMED.name(),
                                 u10);
-
+                        this.plugin.setExp_sold(u10);
+                        this.plugin.setMoney_lost(p10);
                     } else
                     {
                         sender.sendMessage(String.format(
@@ -168,7 +170,8 @@ public class Buyunarmed implements CommandExecutor
                                         M2EXP.economy.format(r.balance)));
                         ExperienceAPI.addRawXP(player, SkillType.UNARMED.name(),
                                 u20);
-
+                        this.plugin.setExp_sold(u20);
+                        this.plugin.setMoney_lost(p20);
                     } else
                     {
                         sender.sendMessage(String.format(
@@ -193,7 +196,8 @@ public class Buyunarmed implements CommandExecutor
                                         M2EXP.economy.format(r.balance)));
                         ExperienceAPI.addRawXP(player, SkillType.UNARMED.name(),
                                 u50);
-
+                        this.plugin.setExp_sold(u50);
+                        this.plugin.setMoney_lost(p50);
                     } else
                     {
                         sender.sendMessage(String.format(
@@ -218,7 +222,8 @@ public class Buyunarmed implements CommandExecutor
                                         M2EXP.economy.format(r.balance)));
                         ExperienceAPI.addRawXP(player, SkillType.UNARMED.name(),
                                 u100);
-
+                        this.plugin.setExp_sold(u100);
+                        this.plugin.setMoney_lost(p100);
                     } else
                     {
                         sender.sendMessage(String.format(
@@ -243,7 +248,8 @@ public class Buyunarmed implements CommandExecutor
                                         M2EXP.economy.format(r.balance)));
                         ExperienceAPI.addRawXP(player, SkillType.UNARMED.name(),
                                 u200);
-
+                        this.plugin.setExp_sold(u200);
+                        this.plugin.setMoney_lost(p200);
                     } else
                     {
                         sender.sendMessage(String.format(
@@ -268,7 +274,9 @@ public class Buyunarmed implements CommandExecutor
                                         M2EXP.economy.format(r.balance)));
                         ExperienceAPI.addRawXP(player, SkillType.UNARMED.name(),
                                 u300);
-
+                        this.plugin.setExp_sold(u300);
+                        this.plugin.setMoney_lost(p300);
+                        // updated
                     } else
                     {
                         sender.sendMessage(String.format(
