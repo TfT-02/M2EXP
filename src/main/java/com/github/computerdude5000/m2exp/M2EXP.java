@@ -64,6 +64,10 @@ public class M2EXP extends JavaPlugin implements Listener {
     private int latestVersion;
     private String updateReason = "";
 	public static Economy economy = null;
+    private int exp_bought = 0;
+    private int exp_sold =0;
+    private int money_lost = 0;
+    private int money_gained = 0;
 
 	public Logger logger = Logger.getLogger("M2EXP");
 
@@ -117,7 +121,45 @@ public class M2EXP extends JavaPlugin implements Listener {
         }
 		try {
 			Metrics metrics = new Metrics(this);
-			metrics.start();
+            // Plot the total amount of blocks broken
+            metrics.addCustomData(new Metrics.Plotter("mcMMO exp bought") {
+
+                @Override
+                public int getValue() {
+
+                    return exp_bought;
+                }
+
+            });
+            // Plot the total amount of blocks broken
+            metrics.addCustomData(new Metrics.Plotter("mcMMO exp sold") {
+
+                @Override
+                public int getValue() {
+                    return exp_sold;
+                }
+
+            });
+            // Plot the total amount of blocks broken
+            metrics.addCustomData(new Metrics.Plotter("Money Lost") {
+
+                @Override
+                public int getValue() {
+                    return money_lost;
+                }
+
+            });
+            // Plot the total amount of blocks broken
+            metrics.addCustomData(new Metrics.Plotter("Money Gained") {
+
+                @Override
+                public int getValue() {
+                    return money_gained;
+                }
+
+            });
+
+            metrics.start();
 		} catch (IOException e) {
 			// Failed to submit the stats :-(
 		}
@@ -184,5 +226,31 @@ public class M2EXP extends JavaPlugin implements Listener {
            player.sendMessage("Hello " +player.getName().toString()+"! an update for M2EXP" +latestVersion+ " you Should go and install it :D");
            player.sendMessage("it can be found at http://dev.bukkit.org/bukkit-mods/money-2-exp/");
         }
+    }
+    public int getExp_bought(){
+        return exp_bought;
+    }
+    public void setExp_bought(int temp){
+     this.exp_bought = this.exp_bought+temp;
+    }
+    public int getExp_sold(){
+
+        return exp_sold;
+    }
+    public void setExp_sold(int temp){
+        this.exp_sold=this.exp_sold+temp;
+    }
+    public int getMoney_lost(){
+
+        return money_lost;
+    }
+    public void setMoney_lost(int temp){
+       this.money_lost =this.money_lost +temp;
+    }
+    public int getMoney_gained(){
+        return money_gained;
+    }
+    public void setMoney_gained(int temp){
+        this.money_gained =this.money_gained+temp;
     }
 }
