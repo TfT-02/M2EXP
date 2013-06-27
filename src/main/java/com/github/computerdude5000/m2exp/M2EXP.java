@@ -97,6 +97,7 @@ public class M2EXP extends JavaPlugin implements Listener {
     }
 	public void onEnable() {
         this.saveDefaultConfig();
+       if(this.getPluginConfig("update").getBoolean("check-for-update")==true) {
         try
         {
             URL updateFile = new URL(
@@ -119,6 +120,7 @@ public class M2EXP extends JavaPlugin implements Listener {
         {
             logger.severe(String.valueOf(e));
         }
+       }
 		try {
 			Metrics metrics = new Metrics(this);
             // Plot the total amount of blocks broken

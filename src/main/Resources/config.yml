@@ -1,6 +1,7 @@
 general:
   update:
     notification: true
+    check-for-update: true
 skill:
   acrobatics:
     unitprice: 20

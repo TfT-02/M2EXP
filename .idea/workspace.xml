@@ -2,15 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d914c5-aefc-47b9-947a-746fbcc7d8ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyacrobatics.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyacrobatics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyarchery.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyarchery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_trove4j_trove4j_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_6_1_R0_1_SNAPSHOT.xml" />
+      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__com_nijikokun_iconomy_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__com_sk89q_commandbook_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__com_sk89q_jchronic_0_2_4a.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__com_sk89q_worldedit_5_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__com_sk89q_worldguard_5_7_4_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__de_schlichtherle_truezip_6_8_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__junit_junit_4_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__net_sf_opencsv_opencsv_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__org_bukkit_bukkit_1_5_1_R0_3_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__org_khelekore_prtree_1_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__rhino_js_1_7R2.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/M2EXP.iml" afterPath="$PROJECT_DIR$/M2EXP.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Resources/config.yml" afterPath="$PROJECT_DIR$/src/main/Resources/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__com_gmail_nossr50_mcMMO_mcMMO_1_4_05_dev1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_gmail_nossr50_mcMMO_mcMMO_1_4_06_dev6.xml" />
+      <change type="MOVED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__net_milkbowl_vault_Vault_1_2_24_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_milkbowl_vault_Vault_1_2_26_SNAPSHOT.xml" />
+      <change type="MOVED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__org_getspout_spoutplugin_1_5_2_R0_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_getspout_spoutplugin_1_6_1_R0_1_SNAPSHOT.xml" />
     </list>
     <ignored path="M2EXP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1372357016578" ignored="false" />
+    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1373136192359" ignored="false" />
     <file path="/Buywoodcutting.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1366207521687" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/modules/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993352302" ignored="false" />
     <file path="/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993321750" ignored="false" />
@@ -49,12 +68,12 @@
     <file path="$PROJECT_DIR$/../HungerGames/pom.xml" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1370070925109" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/pom.xml" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1369537180984" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/config/MasterReadOnlyConfigHandler.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1369537232593" ignored="false" />
-    <file path="/pom.xml" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1370070860000" ignored="false" />
-    <file path="/M2EXP.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1372354299500" ignored="false" />
+    <file path="/pom.xml" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1373136768156" ignored="false" />
+    <file path="/M2EXP.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1373136344968" ignored="false" />
     <file path="$PROJECT_DIR$/../DerpingWorldGen/src/main/java/com/github/computerdude5000/derpingworldgen/Metrics.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1370229422250" ignored="false" />
     <file path="/Metrics.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1370229420703" ignored="false" />
     <file path="$PROJECT_DIR$/../DerpingWorldGen/src/main/java/com/github/computerdude5000/derpingworldgen/DerpingWorldGen.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1370229494062" ignored="false" />
-    <file path="/config.yml" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1371266252843" ignored="false" />
+    <file path="/config.yml" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1373136380484" ignored="false" />
     <file path="$PROJECT_DIR$/../Search-and-Destory/src/main/java/com/github/computerdude5000/snd/SearchAndDestory.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1371420425203" ignored="false" />
     <file path="$PROJECT_DIR$/../Search-and-Destory/src/main/java/com/github/computerdude5000/snd/commands/CommandRegister.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1371422460328" ignored="false" />
     <file path="$PROJECT_DIR$/../Search-and-Destory/src/main/java/com/github/computerdude5000/snd/Modules.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1371421964593" ignored="false" />
@@ -125,24 +144,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Buymining.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buymining.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="278" column="47" selection-start="13677" selection-end="13677" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Buyexcavation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyexcavation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="280" column="68" selection-start="13949" selection-end="13949" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Buyfishing.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyfishing.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -188,15 +189,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buyaxes.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyaxes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="276" column="60" selection-start="13600" selection-end="13600" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Buyunarmed.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyunarmed.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -206,14 +198,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buywoodcutting.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Buywoodcutting.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buywoodcutting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="261" column="5" selection-start="13100" selection-end="13100" vertical-scroll-proportion="0.23308271">
+            <state line="290" column="49" selection-start="14334" selection-end="14334" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="M2EXP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="99" column="53" selection-start="3797" selection-end="3813" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Resources/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="26" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="56" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.73431736">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -236,10 +255,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/Resources/config.yml" />
         <option value="$PROJECT_DIR$/src/main/Resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyarchery.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyacrobatics.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyaxes.java" />
@@ -252,6 +268,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyswords.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buytaming.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buywoodcutting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" />
+        <option value="$PROJECT_DIR$/src/main/Resources/config.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -263,8 +282,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1024" />
-    <option name="height" value="738" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1032" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -350,7 +371,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -464,6 +484,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -652,31 +673,38 @@
       <created>1372357031296</created>
       <updated>1372357031296</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="M2EXP the metrics update &#10;">
+      <created>1372357065625</created>
+      <updated>1372357065625</updated>
+    </task>
+    <task id="LOCAL-00012" summary="M2EXP the metrics update stupid head file errors :D&#10;&#10;">
+      <created>1372357183203</created>
+      <updated>1372357183203</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1024" height="738" extended-state="0" />
+    <frame x="-4" y="-4" width="1032" height="746" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Dilbert" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IntelliGuard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDE talk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24948454" sideWeight="0.6700337" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24744377" sideWeight="0.6706081" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -684,6 +712,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -729,7 +758,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="M2EXP the metrics update &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="M2EXP the metrics update stupid head file errors :D&#10;&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -753,6 +782,7 @@
     <MESSAGE value="bump for release of 0.0.6 auto create config and then permissions soon to have an update notification" />
     <MESSAGE value="M2EXP version 0.1.0 ! Now including update notification along with update message and allowing you to disable in the config the update notification on op join" />
     <MESSAGE value="M2EXP the metrics update &#10;" />
+    <MESSAGE value="M2EXP the metrics update stupid head file errors :D&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -762,30 +792,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="72" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/Metrics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="735" column="34" selection-start="1576" selection-end="20019" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="11" selection-end="41" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="252" column="44" selection-start="9305" selection-end="9305" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -869,11 +878,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buywoodcutting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="5" selection-start="13100" selection-end="13100" vertical-scroll-proportion="0.23308271">
+        <state line="290" column="49" selection-start="14334" selection-end="14334" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="53" selection-start="3797" selection-end="3813" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="56" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.73431736">
+          <folding />
         </state>
       </provider>
     </entry>

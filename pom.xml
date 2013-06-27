@@ -40,24 +40,19 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.5.1-R0.3-SNAPSHOT</version>
+            <version>1.6.1-R0.1-SNAPSHOT</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>net.milkbowl.vault</groupId>
             <artifactId>Vault</artifactId>
-            <version>1.2.24-SNAPSHOT</version>
+            <version>1.2.26-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.gmail.nossr50.mcMMO</groupId>
             <artifactId>mcMMO</artifactId>
-            <version>1.4.05-dev1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sk89q</groupId>
-            <artifactId>worldguard</artifactId>
-            <version>5.7.4-SNAPSHOT</version>
+            <version>1.4.06-dev6</version>
         </dependency>
     </dependencies>
 </project>
