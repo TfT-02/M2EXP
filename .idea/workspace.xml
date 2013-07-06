@@ -2,34 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d914c5-aefc-47b9-947a-746fbcc7d8ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_trove4j_trove4j_3_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_6_1_R0_1_SNAPSHOT.xml" />
-      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__com_nijikokun_iconomy_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__com_sk89q_commandbook_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__com_sk89q_jchronic_0_2_4a.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__com_sk89q_worldedit_5_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__com_sk89q_worldguard_5_7_4_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__de_schlichtherle_truezip_6_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__junit_junit_4_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__net_sf_opencsv_opencsv_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__org_bukkit_bukkit_1_5_1_R0_3_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__org_khelekore_prtree_1_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__rhino_js_1_7R2.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/M2EXP.iml" afterPath="$PROJECT_DIR$/M2EXP.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Resources/config.yml" afterPath="$PROJECT_DIR$/src/main/Resources/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__com_gmail_nossr50_mcMMO_mcMMO_1_4_05_dev1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_gmail_nossr50_mcMMO_mcMMO_1_4_06_dev6.xml" />
-      <change type="MOVED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__net_milkbowl_vault_Vault_1_2_24_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_milkbowl_vault_Vault_1_2_26_SNAPSHOT.xml" />
-      <change type="MOVED" beforePath="F:\workspace\M2EXP\.idea\libraries\Maven__org_getspout_spoutplugin_1_5_2_R0_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_getspout_spoutplugin_1_6_1_R0_1_SNAPSHOT.xml" />
     </list>
     <ignored path="M2EXP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1373136192359" ignored="false" />
+    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1373137078546" ignored="false" />
     <file path="/Buywoodcutting.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1366207521687" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/modules/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993352302" ignored="false" />
     <file path="/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993321750" ignored="false" />
@@ -231,7 +208,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="56" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.73431736">
+            <state line="52" column="56" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.73703706">
               <folding />
             </state>
           </provider>
@@ -245,6 +222,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="harris" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -681,7 +663,11 @@
       <created>1372357183203</created>
       <updated>1372357183203</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update for 1.6.1 :D">
+      <created>1373137103062</created>
+      <updated>1373137103062</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -700,6 +686,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -712,7 +699,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -758,7 +744,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="M2EXP the metrics update stupid head file errors :D&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for 1.6.1 :D" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -783,6 +769,7 @@
     <MESSAGE value="M2EXP version 0.1.0 ! Now including update notification along with update message and allowing you to disable in the config the update notification on op join" />
     <MESSAGE value="M2EXP the metrics update &#10;" />
     <MESSAGE value="M2EXP the metrics update stupid head file errors :D&#10;&#10;" />
+    <MESSAGE value="update for 1.6.1 :D" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -902,7 +889,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="56" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.73431736">
+        <state line="52" column="56" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.73703706">
           <folding />
         </state>
       </provider>
