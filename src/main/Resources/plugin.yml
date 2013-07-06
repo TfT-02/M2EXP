@@ -9,26 +9,26 @@ version: 0.1.0
 depend: [Vault, mcMMO]
 commands:
  bacrobatics:
-   description: buy McMMO Acrobatics skill exp
+   description: buy McMMO Acrobatics skill experience points
  barchery:
-   description: buy McMMO Archery skill exp
+   description: buy McMMO Archery skill experience points
  baxes: 
-   description: buy McMMO Axes skill exp
+   description: buy McMMO Axes skill experience points
  bexcavation: 
-   description: buy McMMO excavation skill exp
+   description: buy McMMO excavation skill experience points
  bfishing:
-   description: buy McMMO Fishing skill exp
+   description: buy McMMO Fishing skill experience points
  bherbalism:
-   description: buy McMMO Herbalism skill exp
+   description: buy McMMO Herbalism skill experience points
  bmining:
-   description: buy McMMO Mining skill exp
+   description: buy McMMO Mining skill experience points
  brepair:
-   description: buy McMMO Repair skill exp
+   description: buy McMMO Repair skill experience points
  bswords:
-   description: buy McMMO Swords skill exp
+   description: buy McMMO Swords skill experience points
  btaming:
-   description: buy McMMO Taming skill exp
+   description: buy McMMO Taming skill experience points
  bunarmed:
-   description: buy McMMO Unarmed skill exp
+   description: buy McMMO Unarmed skill experience points
  bwoodcutting:
-   description: buy McMMO Woodcutting skill exp
+   description: buy McMMO Woodcutting skill experience points
