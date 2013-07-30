@@ -76,227 +76,227 @@ public class Buymining implements CommandExecutor
     {
         try
         {
-            if (cmd.getName().equalsIgnoreCase("bmining")&&M2EXP.perms.has(sender,"m2exp.buy.mining"))
+            if (cmd.getName().equalsIgnoreCase("bmining") && M2EXP.perms.has(sender, "m2exp.buy.mining"))
             {
 
                 if (sender instanceof Player)
                 {
                     Player player = (Player) sender;
-                  //  if (M2EXP.perms.has(player, "m2exp.buy.mining"))
-                  //  {
-                        if (args[0].equals("info"))
+                    //  if (M2EXP.perms.has(player, "m2exp.buy.mining"))
+                    //  {
+                    if (args[0].equals("info"))
+                    {
+                        player.sendMessage("Buy Mining EXP");
+                        player.sendMessage("Price for 5 Units is: "
+                                + " and gives you: " + " Exp of Mining");
+                        player.sendMessage("Price for 10 Units is: "
+                                + " and gives you: " + " Exp of Mining");
+                        player.sendMessage("Price for 20 Units is: "
+                                + " and gives you: " + " Exp of Mining");
+                        player.sendMessage("Price for 50 Units is: "
+                                + " and gives you: " + " Exp of Mining");
+                        player.sendMessage("Price for 100 Units is: "
+                                + " and gives you: " + " Exp of Mining");
+                        player.sendMessage("Price for 200 Units is: "
+                                + " and gives you: " + " Exp of Mining");
+                        player.sendMessage("Price for 300 Units is: "
+                                + " and gives you: " + " Exp of Mining");
+                        player.sendMessage("Do /bmining and the number of units IE: /bmining 20");
+                    } else if (args[0].equals("5"))
+                    {
+                        sender.sendMessage(String.format("You have %s",
+                                M2EXP.economy.format(M2EXP.economy
+                                        .getBalance(player.getName()))));
+
+                        EconomyResponse r = M2EXP.economy.withdrawPlayer(
+                                player.getName(), p5);
+
+                        if (r.transactionSuccess())
                         {
-                            player.sendMessage("Buy Mining EXP");
-                            player.sendMessage("Price for 5 Units is: "
-                                    + " and gives you: " + " Exp of Mining");
-                            player.sendMessage("Price for 10 Units is: "
-                                    + " and gives you: " + " Exp of Mining");
-                            player.sendMessage("Price for 20 Units is: "
-                                    + " and gives you: " + " Exp of Mining");
-                            player.sendMessage("Price for 50 Units is: "
-                                    + " and gives you: " + " Exp of Mining");
-                            player.sendMessage("Price for 100 Units is: "
-                                    + " and gives you: " + " Exp of Mining");
-                            player.sendMessage("Price for 200 Units is: "
-                                    + " and gives you: " + " Exp of Mining");
-                            player.sendMessage("Price for 300 Units is: "
-                                    + " and gives you: " + " Exp of Mining");
-                            player.sendMessage("Do /bmining and the number of units IE: /bmining 20");
-                        } else if (args[0].equals("5"))
-                        {
-                            sender.sendMessage(String.format("You have %s",
-                                    M2EXP.economy.format(M2EXP.economy
-                                            .getBalance(player.getName()))));
-
-                            EconomyResponse r = M2EXP.economy.withdrawPlayer(
-                                    player.getName(), p5);
-
-                            if (r.transactionSuccess())
-                            {
-                                sender.sendMessage(String
-                                        .format("You were given %s units of exp and now have %s",
-                                                u5,
-                                                M2EXP.economy.format(r.balance)));
-                                ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
-                                        u5);
-                                this.plugin.setExp_sold(u5);
-                                this.plugin.setMoney_lost(p5);
-                            } else
-                            {
-                                sender.sendMessage(String.format(
-                                        "An error occured: %s", r.errorMessage));
-                            }
-                            return true;
-                        } else if (args[0].equals("10"))
-                        {
-                            sender.sendMessage(String.format("You have %s",
-                                    M2EXP.economy.format(M2EXP.economy
-                                            .getBalance(player.getName()))));
-
-                            EconomyResponse r = M2EXP.economy.withdrawPlayer(
-                                    player.getName(), p10);
-
-                            if (r.transactionSuccess())
-                            {
-                                sender.sendMessage(String
-                                        .format("You were given %s units of exp and now have %s",
-                                                u10,
-                                                M2EXP.economy.format(r.balance)));
-                                ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
-                                        u10);
-                                this.plugin.setExp_sold(u10);
-                                this.plugin.setMoney_lost(p10);
-                            } else
-                            {
-                                sender.sendMessage(String.format(
-                                        "An error occured: %s", r.errorMessage));
-                            }
-                            return true;
-
-                        } else if (args[0].equals("20"))
-                        {
-                            sender.sendMessage(String.format("You have %s",
-                                    M2EXP.economy.format(M2EXP.economy
-                                            .getBalance(player.getName()))));
-
-                            EconomyResponse r = M2EXP.economy.withdrawPlayer(
-                                    player.getName(), p20);
-
-                            if (r.transactionSuccess())
-                            {
-                                sender.sendMessage(String
-                                        .format("You were given %s units of exp and now have %s",
-                                                u20,
-                                                M2EXP.economy.format(r.balance)));
-                                ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
-                                        u20);
-                                this.plugin.setExp_sold(u20);
-                                this.plugin.setMoney_lost(p20);
-                            } else
-                            {
-                                sender.sendMessage(String.format(
-                                        "An error occured: %s", r.errorMessage));
-                            }
-                            return true;
-
-                        } else if (args[0].equals("50"))
-                        {
-                            sender.sendMessage(String.format("You have %s",
-                                    M2EXP.economy.format(M2EXP.economy
-                                            .getBalance(player.getName()))));
-
-                            EconomyResponse r = M2EXP.economy.withdrawPlayer(
-                                    player.getName(), p50);
-
-                            if (r.transactionSuccess())
-                            {
-                                sender.sendMessage(String
-                                        .format("You were given %s units of exp and now have %s",
-                                                u50,
-                                                M2EXP.economy.format(r.balance)));
-                                ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
-                                        u50);
-                                this.plugin.setExp_sold(u50);
-                                this.plugin.setMoney_lost(p50);
-                            } else
-                            {
-                                sender.sendMessage(String.format(
-                                        "An error occured: %s", r.errorMessage));
-                            }
-                            return true;
-
-                        } else if (args[0].equals("100"))
-                        {
-                            sender.sendMessage(String.format("You have %s",
-                                    M2EXP.economy.format(M2EXP.economy
-                                            .getBalance(player.getName()))));
-
-                            EconomyResponse r = M2EXP.economy.withdrawPlayer(
-                                    player.getName(), p100);
-
-                            if (r.transactionSuccess())
-                            {
-                                sender.sendMessage(String
-                                        .format("You were given %s units of exp and now have %s",
-                                                u100,
-                                                M2EXP.economy.format(r.balance)));
-                                ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
-                                        u100);
-                                this.plugin.setExp_sold(u100);
-                                this.plugin.setMoney_lost(p100);
-                            } else
-                            {
-                                sender.sendMessage(String.format(
-                                        "An error occured: %s", r.errorMessage));
-                            }
-                            return true;
-
-                        } else if (args[0].equals("200"))
-                        {
-                            sender.sendMessage(String.format("You have %s",
-                                    M2EXP.economy.format(M2EXP.economy
-                                            .getBalance(player.getName()))));
-
-                            EconomyResponse r = M2EXP.economy.withdrawPlayer(
-                                    player.getName(), p200);
-
-                            if (r.transactionSuccess())
-                            {
-                                sender.sendMessage(String
-                                        .format("You were given %s units of exp and now have %s",
-                                                u200,
-                                                M2EXP.economy.format(r.balance)));
-                                ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
-                                        u200);
-                                this.plugin.setExp_sold(u200);
-                                this.plugin.setMoney_lost(p200);
-                            } else
-                            {
-                                sender.sendMessage(String.format(
-                                        "An error occured: %s", r.errorMessage));
-                            }
-                            return true;
-
-                        } else if (args[0].equals("300"))
-                        {
-                            sender.sendMessage(String.format("You have %s",
-                                    M2EXP.economy.format(M2EXP.economy
-                                            .getBalance(player.getName()))));
-
-                            EconomyResponse r = M2EXP.economy.withdrawPlayer(
-                                    player.getName(), p300);
-
-                            if (r.transactionSuccess())
-                            {
-                                sender.sendMessage(String
-                                        .format("You were given %s units of exp and now have %s",
-                                                u300,
-                                                M2EXP.economy.format(r.balance)));
-                                ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
-                                        u300);
-                                this.plugin.setExp_sold(u300);
-                                this.plugin.setMoney_lost(p300);
-                                // thee   adfas
-                            } else
-                            {
-                                sender.sendMessage(String.format(
-                                        "An error occured: %s", r.errorMessage));
-                            }
-                            return true;
-
+                            sender.sendMessage(String
+                                    .format("You were given %s units of exp and now have %s",
+                                            u5,
+                                            M2EXP.economy.format(r.balance)));
+                            ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
+                                    u5);
+                            this.plugin.setExp_sold(u5);
+                            this.plugin.setMoney_lost(p5);
                         } else
                         {
-                            player.sendMessage("please use a valid number 5,10,20,50,100,200,300");
+                            sender.sendMessage(String.format(
+                                    "An error occured: %s", r.errorMessage));
                         }
+                        return true;
+                    } else if (args[0].equals("10"))
+                    {
+                        sender.sendMessage(String.format("You have %s",
+                                M2EXP.economy.format(M2EXP.economy
+                                        .getBalance(player.getName()))));
 
-                        return false;
+                        EconomyResponse r = M2EXP.economy.withdrawPlayer(
+                                player.getName(), p10);
+
+                        if (r.transactionSuccess())
+                        {
+                            sender.sendMessage(String
+                                    .format("You were given %s units of exp and now have %s",
+                                            u10,
+                                            M2EXP.economy.format(r.balance)));
+                            ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
+                                    u10);
+                            this.plugin.setExp_sold(u10);
+                            this.plugin.setMoney_lost(p10);
+                        } else
+                        {
+                            sender.sendMessage(String.format(
+                                    "An error occured: %s", r.errorMessage));
+                        }
+                        return true;
+
+                    } else if (args[0].equals("20"))
+                    {
+                        sender.sendMessage(String.format("You have %s",
+                                M2EXP.economy.format(M2EXP.economy
+                                        .getBalance(player.getName()))));
+
+                        EconomyResponse r = M2EXP.economy.withdrawPlayer(
+                                player.getName(), p20);
+
+                        if (r.transactionSuccess())
+                        {
+                            sender.sendMessage(String
+                                    .format("You were given %s units of exp and now have %s",
+                                            u20,
+                                            M2EXP.economy.format(r.balance)));
+                            ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
+                                    u20);
+                            this.plugin.setExp_sold(u20);
+                            this.plugin.setMoney_lost(p20);
+                        } else
+                        {
+                            sender.sendMessage(String.format(
+                                    "An error occured: %s", r.errorMessage));
+                        }
+                        return true;
+
+                    } else if (args[0].equals("50"))
+                    {
+                        sender.sendMessage(String.format("You have %s",
+                                M2EXP.economy.format(M2EXP.economy
+                                        .getBalance(player.getName()))));
+
+                        EconomyResponse r = M2EXP.economy.withdrawPlayer(
+                                player.getName(), p50);
+
+                        if (r.transactionSuccess())
+                        {
+                            sender.sendMessage(String
+                                    .format("You were given %s units of exp and now have %s",
+                                            u50,
+                                            M2EXP.economy.format(r.balance)));
+                            ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
+                                    u50);
+                            this.plugin.setExp_sold(u50);
+                            this.plugin.setMoney_lost(p50);
+                        } else
+                        {
+                            sender.sendMessage(String.format(
+                                    "An error occured: %s", r.errorMessage));
+                        }
+                        return true;
+
+                    } else if (args[0].equals("100"))
+                    {
+                        sender.sendMessage(String.format("You have %s",
+                                M2EXP.economy.format(M2EXP.economy
+                                        .getBalance(player.getName()))));
+
+                        EconomyResponse r = M2EXP.economy.withdrawPlayer(
+                                player.getName(), p100);
+
+                        if (r.transactionSuccess())
+                        {
+                            sender.sendMessage(String
+                                    .format("You were given %s units of exp and now have %s",
+                                            u100,
+                                            M2EXP.economy.format(r.balance)));
+                            ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
+                                    u100);
+                            this.plugin.setExp_sold(u100);
+                            this.plugin.setMoney_lost(p100);
+                        } else
+                        {
+                            sender.sendMessage(String.format(
+                                    "An error occured: %s", r.errorMessage));
+                        }
+                        return true;
+
+                    } else if (args[0].equals("200"))
+                    {
+                        sender.sendMessage(String.format("You have %s",
+                                M2EXP.economy.format(M2EXP.economy
+                                        .getBalance(player.getName()))));
+
+                        EconomyResponse r = M2EXP.economy.withdrawPlayer(
+                                player.getName(), p200);
+
+                        if (r.transactionSuccess())
+                        {
+                            sender.sendMessage(String
+                                    .format("You were given %s units of exp and now have %s",
+                                            u200,
+                                            M2EXP.economy.format(r.balance)));
+                            ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
+                                    u200);
+                            this.plugin.setExp_sold(u200);
+                            this.plugin.setMoney_lost(p200);
+                        } else
+                        {
+                            sender.sendMessage(String.format(
+                                    "An error occured: %s", r.errorMessage));
+                        }
+                        return true;
+
+                    } else if (args[0].equals("300"))
+                    {
+                        sender.sendMessage(String.format("You have %s",
+                                M2EXP.economy.format(M2EXP.economy
+                                        .getBalance(player.getName()))));
+
+                        EconomyResponse r = M2EXP.economy.withdrawPlayer(
+                                player.getName(), p300);
+
+                        if (r.transactionSuccess())
+                        {
+                            sender.sendMessage(String
+                                    .format("You were given %s units of exp and now have %s",
+                                            u300,
+                                            M2EXP.economy.format(r.balance)));
+                            ExperienceAPI.addRawXP(player, SkillType.MINING.name(),
+                                    u300);
+                            this.plugin.setExp_sold(u300);
+                            this.plugin.setMoney_lost(p300);
+                            // thee   adfas
+                        } else
+                        {
+                            sender.sendMessage(String.format(
+                                    "An error occured: %s", r.errorMessage));
+                        }
+                        return true;
 
                     } else
                     {
-                        System.out
-                                .println("Sorry you are not a player and you don't have access to this command");
+                        player.sendMessage("please use a valid number 5,10,20,50,100,200,300");
                     }
+
+                    return false;
+
+                } else
+                {
+                    System.out
+                            .println("Sorry you are not a player and you don't have access to this command");
                 }
+            }
 
         } catch (ArrayIndexOutOfBoundsException e)
         {
