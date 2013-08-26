@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d914c5-aefc-47b9-947a-746fbcc7d8ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Resources/stockconfig.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/StockConfig.java" afterPath="$PROJECT_DIR$/src/main/java/update/StockConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="M2EXP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1377486300828" ignored="false" />
+    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1377487415828" ignored="false" />
     <file path="/Buywoodcutting.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1366207521687" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/modules/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993352302" ignored="false" />
     <file path="/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993321750" ignored="false" />
@@ -147,21 +145,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buy.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Buy.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/Buy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="8" selection-start="489" selection-end="581" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#590#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sell.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/Sell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
+            <state line="21" column="8" selection-start="489" selection-end="581" vertical-scroll-proportion="0.59814817">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,10 +176,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StockConfig.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StockConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/update/StockConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.8185185">
+            <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -262,10 +249,10 @@
         <option value="$PROJECT_DIR$/src/main/Resources/config.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" />
         <option value="$PROJECT_DIR$/src/main/java/update/commands/Buy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/update/commands/Sell.java" />
         <option value="$PROJECT_DIR$/src/main/java/update/commands/Stats.java" />
         <option value="$PROJECT_DIR$/src/main/java/update/StockConfig.java" />
         <option value="$PROJECT_DIR$/src/main/Resources/stockconfig.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/update/commands/Sell.java" />
       </list>
     </option>
   </component>
@@ -783,7 +770,11 @@
       <created>1377485557718</created>
       <updated>1377485557718</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="grrrr not this again.">
+      <created>1377487366453</created>
+      <updated>1377487366453</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -806,7 +797,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24744377" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24744377" sideWeight="0.67" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -860,7 +851,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Summers winding down schools starting back up and i finally have enough time to get to work on this plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="aha" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -889,6 +880,8 @@
     <MESSAGE value="update the plugin yml." />
     <MESSAGE value="java docing and code formatting" />
     <MESSAGE value="Summers winding down schools starting back up and i finally have enough time to get to work on this plugin" />
+    <MESSAGE value="grrrr not this again." />
+    <MESSAGE value="aha" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -973,16 +966,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/Buy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="489" selection-end="581" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#590#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/Sell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
+        <state line="21" column="8" selection-start="489" selection-end="581" vertical-scroll-proportion="0.59814817">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1014,7 +998,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/update/StockConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.8185185">
+        <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
