@@ -15,10 +15,10 @@ import org.bukkit.command.CommandSender;
  * To change this template use File | Settings | File Templates.
  */
 
-public class Sell   implements CommandExecutor
-        {
-public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings)
-        {
+public class Sell implements CommandExecutor
+{
+    public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings)
+    {
         return false;  //To change body of implemented methods use File | Settings | File Templates.
+    }
 }
-        }

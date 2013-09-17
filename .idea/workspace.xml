@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d914c5-aefc-47b9-947a-746fbcc7d8ba" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/update/commands/datatypes/SkillTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/update/TheBigChangeIdeas.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_gmail_nossr50_mcMMO_mcMMO_1_4_06_dev6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_milkbowl_vault_Vault_1_2_26_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_trove4j_trove4j_3_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_6_1_R0_1_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_getspout_spoutplugin_1_6_1_R0_1_SNAPSHOT.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/commands/Buy.java" afterPath="$PROJECT_DIR$/src/main/java/update/commands/Buy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/M2EXP.iml" afterPath="$PROJECT_DIR$/M2EXP.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/commands/Sell.java" afterPath="$PROJECT_DIR$/src/main/java/update/commands/Sell.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/stock/Stock.java" afterPath="$PROJECT_DIR$/src/main/java/update/stock/Stock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="M2EXP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1377487415828" ignored="false" />
+    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1379447748524" ignored="false" />
     <file path="/Buywoodcutting.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1366207521687" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/modules/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993352302" ignored="false" />
     <file path="/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993321750" ignored="false" />
@@ -73,6 +90,12 @@
     <file path="$PROJECT_DIR$/../elementalscience/source/common/com/gmail/computerdude5000/elementalscience/blocks/oreblocks/iridiumBlock.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1377486802468" ignored="false" />
     <file path="$PROJECT_DIR$/../elementalscience/source/common/com/gmail/computerdude5000/elementalscience/ores/IridiumOre.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1377486823125" ignored="false" />
     <file path="$PROJECT_DIR$/../elementalscience/source/common/com/gmail/computerdude5000/elementalscience/blocks/oreblocks/IridiumBlock.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1377486839703" ignored="false" />
+    <file path="/SkillTypes.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1379426802708" ignored="false" />
+    <file path="/Buy.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1379427347380" ignored="false" />
+    <file path="/a.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1379427225613" ignored="false" />
+    <file path="/sample.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1379427279970" ignored="false" />
+    <file path="/Stock.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1379428475479" ignored="false" />
+    <file path="/TheBigChangeIdeas.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1379428379594" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +110,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -123,7 +147,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -136,22 +159,26 @@
       <file leaf-file-name="M2EXP.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="37" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="174" column="55" selection-start="5703" selection-end="5703" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buy.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SkillTypes.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/datatypes/SkillTypes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="11" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Buy.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/Buy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="8" selection-start="489" selection-end="581" vertical-scroll-proportion="0.59814817">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="43" column="104" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,10 +186,8 @@
       <file leaf-file-name="Stats.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/Stats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#592#0" expanded="false" />
-              </folding>
+            <state line="24" column="78" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,19 +195,26 @@
       <file leaf-file-name="Stock.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/update/stock/Stock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="18" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+            <state line="51" column="65" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StockConfig.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TheBigChangeIdeas.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/update/TheBigChangeIdeas.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StockConfig.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/update/StockConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.029069768">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -191,24 +223,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyacrobatics.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="29" column="53" selection-start="1229" selection-end="1255" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Resources/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Resources/plugin.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -237,9 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyexcavation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyfishing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyherbalism.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyrepair.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyswords.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buytaming.java" />
@@ -247,12 +258,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/Resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/main/Resources/config.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/update/commands/Buy.java" />
         <option value="$PROJECT_DIR$/src/main/java/update/commands/Stats.java" />
         <option value="$PROJECT_DIR$/src/main/java/update/StockConfig.java" />
         <option value="$PROJECT_DIR$/src/main/Resources/stockconfig.yml" />
         <option value="$PROJECT_DIR$/src/main/java/update/commands/Sell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/update/commands/datatypes/SkillTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/update/commands/Buy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/update/TheBigChangeIdeas.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/update/stock/Stock.java" />
       </list>
     </option>
   </component>
@@ -264,10 +278,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1032" />
-    <option name="height" value="746" />
+    <option name="x" value="8" />
+    <option name="y" value="22" />
+    <option name="width" value="1346" />
+    <option name="height" value="685" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -353,6 +367,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -385,52 +400,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="M2EXP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="M2EXP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="M2EXP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="M2EXP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="update" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,10 +428,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="update" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -491,6 +458,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="M2EXP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="M2EXP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="update" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datatypes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,14 +553,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="template.copyright.formatting" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -580,14 +580,6 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -778,11 +770,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1032" height="746" extended-state="0" />
+    <frame x="8" y="22" width="1346" height="685" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Dilbert" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IntelliGuard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -791,22 +781,24 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24744377" sideWeight="0.67" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24692307" sideWeight="0.66902655" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IntelliGuard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDE talk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Dilbert" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -891,13 +883,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyswords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="276" column="56" selection-start="12879" selection-end="12879" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buytaming.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="276" column="56" selection-start="12879" selection-end="12879" vertical-scroll-proportion="0.0">
@@ -922,24 +907,18 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="54" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1373136815937" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Resources/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="16" column="14" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Resources/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="16" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
@@ -947,14 +926,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/stockconfig.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="37" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="39" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyacrobatics.java">
@@ -964,44 +938,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/Buy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/datatypes/SkillTypes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="489" selection-end="581" vertical-scroll-proportion="0.59814817">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="21" column="11" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/Stats.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/update/TheBigChangeIdeas.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#592#0" expanded="false" />
-          </folding>
+        <state line="20" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/update/stock/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+        <state line="51" column="65" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/stockconfig.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/Stats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="39" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
+        <state line="24" column="78" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="55" selection-start="5703" selection-end="5703" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/Buy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="104" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/update/StockConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.029069768">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,11 +1003,11 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2570694" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

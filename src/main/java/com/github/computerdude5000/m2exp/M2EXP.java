@@ -44,7 +44,7 @@ public class M2EXP extends JavaPlugin implements Listener
     public static Economy economy = null;
 
     public final String chatprefix = "[M2EXP] ";
-    public final String name = "M2EXP";
+    public final String name = "EXP2EXP";
     public final String author = "Computerdude5000";
     public final String contact = "Computerdude5000@gmail.com or http://dev.bukkit.org/server-mods/money-2-exp/";
     public final String github = "https://github.com/computerdude5000/M2EXP";

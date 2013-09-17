@@ -1,0 +1,20 @@
+
+1) buy and sell commands
+2) stock command
+3) stats command
+4) sales when stock goes over a certain amount
+5) price jumps when stock goes under a certain amount
+6) customizable buy amounts
+
+
+CLASSES
+Buy- 1% done
+Sell - 1% done
+Stock - 5% done
+Stats - 1% done
+StockConfig - 60% done
+StatsConfig - 0 % done
+SkillTypes - 70% done
+ConvertExpTypesConfig - 0% done
+ConvertExpTypes - 0% done
+ConvertExp - 0% done
