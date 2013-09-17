@@ -35,9 +35,8 @@ public class Buy implements CommandExecutor
         {
             commandSender.sendMessage(ChatColor.RED + "We're sorry but you are not a player so you are not allowed to do the following commands /buy and /sell");
             commandSender.sendMessage(ChatColor.RED + "You however are allowed todo /money2XP, /stock and /stats ");
-           return true;
+            return true;
         }
-
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
 }

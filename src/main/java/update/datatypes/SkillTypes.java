@@ -1,4 +1,4 @@
-package update.commands.datatypes;
+package update.datatypes;
 
 /**
  * Created with IntelliJ IDEA.

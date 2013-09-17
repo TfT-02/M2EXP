@@ -1,7 +1,7 @@
 /*
 *copyright
 */
-package update;
+package update.configs;
 
 import com.github.computerdude5000.m2exp.M2EXP;
 import org.bukkit.configuration.file.FileConfiguration;
