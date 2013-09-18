@@ -38,12 +38,12 @@ public class Stock implements CommandExecutor
                 player.sendMessage(ChatColor.GREEN + " Excavation |                      "); //TODO read from the config how much excavation we have in stock
                 player.sendMessage(ChatColor.GREEN + "    Fishing |                      "); //TODO read from the config how much fishing we have in stock
                 player.sendMessage(ChatColor.GREEN + "  Herbalism |                      "); //TODO read from the config how much herbalism we have in stock
-                player.sendMessage(ChatColor.GREEN + "    Mining  |"); //TODO read from the config how much mining we have in stock
-                player.sendMessage(ChatColor.GREEN + "    Repair  | ");//TODO read from the config how much repair we have in stock
-                player.sendMessage(ChatColor.GREEN + "    Swords  | ");//TODO read from the config how much swords we have in stock
-                player.sendMessage(ChatColor.GREEN + "    Taming  | "); //TODO read from the config how much taming we have in stock
-                player.sendMessage(ChatColor.GREEN + "    Unarmed | "); //TODO read from the config how much unarmed we have in stock
-                player.sendMessage(ChatColor.GREEN + "Woodcutting | ");//TODO read from the config how much woodcutting we have in stock
+                player.sendMessage(ChatColor.GREEN + "    Mining  |                      "); //TODO read from the config how much mining we have in stock
+                player.sendMessage(ChatColor.GREEN + "                                   ");//TODO read from the config how much repair we have in stock
+                player.sendMessage(ChatColor.GREEN + "    Swords  |                      ");//TODO read from the config how much swords we have in stock
+                player.sendMessage(ChatColor.GREEN + "    Taming  |                      "); //TODO read from the config how much taming we have in stock
+                player.sendMessage(ChatColor.GREEN + "    Unarmed |                      "); //TODO read from the config how much unarmed we have in stock
+                player.sendMessage(ChatColor.GREEN + "Woodcutting |                      ");//TODO read from the config how much woodcutting we have in stock
 
             }
             else
