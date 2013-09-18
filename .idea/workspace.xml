@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d914c5-aefc-47b9-947a-746fbcc7d8ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/stock/Stock.java" afterPath="$PROJECT_DIR$/src/main/java/update/stock/Stock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="M2EXP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1379510103991" ignored="false" />
+    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1379538737908" ignored="false" />
     <file path="/Buywoodcutting.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1366207521687" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/modules/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993352302" ignored="false" />
     <file path="/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993321750" ignored="false" />
@@ -186,7 +185,7 @@
       <file leaf-file-name="Stock.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/update/stock/Stock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="89" selection-start="2789" selection-end="2789" vertical-scroll-proportion="0.526616">
+            <state line="45" column="89" selection-start="2789" selection-end="2789" vertical-scroll-proportion="0.52862597">
               <folding />
             </state>
           </provider>
@@ -552,6 +551,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -577,19 +589,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -740,12 +739,16 @@
       <created>1379508523702</created>
       <updated>1379508523702</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="some formatting because well just because">
+      <created>1379538246342</created>
+      <updated>1379538246342</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="22" width="1346" height="685" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -759,7 +762,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24615385" sideWeight="0.6706081" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24615385" sideWeight="0.6706081" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IntelliGuard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -817,7 +820,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added colors&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="some formatting because well just because" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -851,6 +854,7 @@
     <MESSAGE value="I'm Back and more work from mah desktop :D" />
     <MESSAGE value="javadoc generation :)" />
     <MESSAGE value="added colors&#10;" />
+    <MESSAGE value="some formatting because well just because" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -957,7 +961,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/update/stock/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="89" selection-start="2789" selection-end="2789" vertical-scroll-proportion="0.526616">
+        <state line="45" column="89" selection-start="2789" selection-end="2789" vertical-scroll-proportion="0.52862597">
           <folding />
         </state>
       </provider>
