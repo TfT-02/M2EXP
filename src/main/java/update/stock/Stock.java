@@ -30,26 +30,25 @@ public class Stock implements CommandExecutor
 
                 Player player = (Player) commandSender;
                 //TODO add color codes
-                player.sendMessage("    Current stocks are:");
-                player.sendMessage("    Skill   |   Quantities of XHERE");     //TODO read from config how much 1 unit of exp is
-                player.sendMessage("    Archery |");//TODO read from config how much archery exp we have in stock
-                player.sendMessage("  Acrobatics|"); //TODO read from config how much acrobatics exp we have in stock
-                player.sendMessage("    Axes    |"); //TODO read from the config how much axes we have in stock
-                player.sendMessage(" Excavation |"); //TODO read from the config how much excavation we have in stock
-                player.sendMessage("    Fishing |"); //TODO read from the config how much fishing we have in stock
-                player.sendMessage("  Herbalism |"); //TODO read from the config how much herbalism we have in stock
-                player.sendMessage("    Mining  |"); //TODO read from the config how much mining we have in stock
-                player.sendMessage("    Repair  | ");//TODO read from the config how much repair we have in stock
-                player.sendMessage("    Swords  | ");//TODO read from the config how much swords we have in stock
-                player.sendMessage("    Taming  | "); //TODO read from the config how much taming we have in stock
-                player.sendMessage("    Unarmed | "); //TODO read from the config how much unarmed we have in stock
-                player.sendMessage("Woodcutting | ");//TODO read from the config how much woodcutting we have in stock
-
+                player.sendMessage(ChatColor.BOLD + "    Current stocks are:");
+                player.sendMessage(ChatColor.GREEN + "    Skill   |   Quantities of XHERE");     //TODO read from config how much 1 unit of exp is
+                player.sendMessage(ChatColor.GREEN + "    Archery |                      ");//TODO read from config how much archery exp we have in stock
+                player.sendMessage(ChatColor.GREEN + "  Acrobatics|                      "); //TODO read from config how much acrobatics exp we have in stock
+                player.sendMessage(ChatColor.GREEN + "    Axes    |                      "); //TODO read from the config how much axes we have in stock
+                player.sendMessage(ChatColor.GREEN + " Excavation |                      "); //TODO read from the config how much excavation we have in stock
+                player.sendMessage(ChatColor.GREEN + "    Fishing |                      "); //TODO read from the config how much fishing we have in stock
+                player.sendMessage(ChatColor.GREEN + "  Herbalism |                      "); //TODO read from the config how much herbalism we have in stock
+                player.sendMessage(ChatColor.GREEN + "    Mining  |"); //TODO read from the config how much mining we have in stock
+                player.sendMessage(ChatColor.GREEN + "    Repair  | ");//TODO read from the config how much repair we have in stock
+                player.sendMessage(ChatColor.GREEN + "    Swords  | ");//TODO read from the config how much swords we have in stock
+                player.sendMessage(ChatColor.GREEN + "    Taming  | "); //TODO read from the config how much taming we have in stock
+                player.sendMessage(ChatColor.GREEN + "    Unarmed | "); //TODO read from the config how much unarmed we have in stock
+                player.sendMessage(ChatColor.GREEN + "Woodcutting | ");//TODO read from the config how much woodcutting we have in stock
 
             }
             else
             {
-           //TODO add same code above but without the color codes
+                //TODO add same code above but without the color codes
 
             }
 
