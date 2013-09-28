@@ -19,22 +19,30 @@ import org.bukkit.entity.Player;
 
 public class Buy implements CommandExecutor
 {
-    public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings)
+    public boolean onCommand( CommandSender commandSender, Command command, String s, String[] strings )
     {
-        if (commandSender instanceof Player)
+        if ( commandSender instanceof Player )
         {
 
             Player player = (Player) commandSender;
-            if (command.getName().equalsIgnoreCase("buy"))
+            if ( command.getName().equalsIgnoreCase( "buy" ) )
             {
-
+                if ( strings[0].equalsIgnoreCase( "cash" ) || strings[0].equalsIgnoreCase( "money" ) )
+                {
+                    return true;
+                } else if ( strings[0].equalsIgnoreCase( "exp" ) || strings[0].equalsIgnoreCase( "xp" ) )
+                {
+                    return true;
+                } else
+                {
+                    player.sendMessage( ChatColor.RED + "Invalid: Arguements must be cash, money, exp, xp are the only valid accepted arguements" );
+                }
                 return true;
             }
-        }
-        else
+        } else
         {
-            commandSender.sendMessage(ChatColor.RED + "We're sorry but you are not a player so you are not allowed to do the following commands /buy and /sell");
-            commandSender.sendMessage(ChatColor.RED + "You however are allowed todo /money2XP, /stock and /stats ");
+            commandSender.sendMessage( ChatColor.RED + "We're sorry but you are not a player so you are not allowed to do the following commands /buy and /sell" );
+            commandSender.sendMessage( ChatColor.RED + "You however are allowed todo /money2XP, /stock and /stats " );
             return true;
         }
         return false;  //To change body of implemented methods use File | Settings | File Templates.
