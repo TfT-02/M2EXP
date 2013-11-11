@@ -2,14 +2,14 @@
 1) buy and sell commands
 2) stock command
 3) stats command
-4) sales when stock goes over a certain amount
-5) price jumps when stock goes under a certain amount
+4) sales when stock goes over a certain amount IE to buy price goes down to sell price goes way down
+5) price jumps when stock goes under a certain amount IE to buy price goes way up to sell price goes  up
 6) customizable buy amounts
 
 
 CLASSES
-Buy- 1% done
-Sell - 1% done
+Buy- 2% done
+Sell - 2% done
 Stock - 5% done
 Stats - 1% done
 StockConfig - 60% done
