@@ -16,7 +16,7 @@
             <url>http://ci.herocraftonline.com/plugin/repository/everything/</url>
         </repository>
         <repository>
-            <id>mcMMO-repo</id>
+            <id>md_5-repo</id>
             <url>http://repo.md-5.net/</url>
         </repository>
     </repositories>
@@ -51,6 +51,7 @@
             <artifactId>mcMMO</artifactId>
             <version>RELEASE</version>
             <type>jar</type>
+
         </dependency>
     </dependencies>
 </project>

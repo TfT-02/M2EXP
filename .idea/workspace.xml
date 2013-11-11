@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45d914c5-aefc-47b9-947a-746fbcc7d8ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_milkbowl_vault_Vault_1_2_27.xml" />
+    <list default="true" id="45d914c5-aefc-47b9-947a-746fbcc7d8ba" name="Default" comment="nope.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="M2EXP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384192029968" ignored="false" />
+    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384192388531" ignored="false" />
     <file path="/Buywoodcutting.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1366207521687" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/modules/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993352302" ignored="false" />
     <file path="/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993321750" ignored="false" />
@@ -183,10 +183,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="41" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.8082707">
+            <state line="53" column="12" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Buyaxes.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyaxes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="28" selection-start="923" selection-end="923" vertical-scroll-proportion="-0.2236842">
               <folding />
             </state>
           </provider>
@@ -205,15 +214,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/update/datatypes/SkillTypes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="16" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatsConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/update/configs/StatsConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="13" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -887,7 +887,11 @@
       <created>1384192032843</created>
       <updated>1384192032843</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="ok so vault works">
+      <created>1384192039609</created>
+      <updated>1384192039609</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1012,11 +1016,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/M2EXP.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.5865922" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="51" selection-start="1615" selection-end="1615" vertical-scroll-proportion="-8.81121">
@@ -1122,7 +1121,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="41" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.8082707">
+        <state line="53" column="12" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyaxes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="923" selection-end="923" vertical-scroll-proportion="-0.2236842">
           <folding />
         </state>
       </provider>
