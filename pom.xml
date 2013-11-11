@@ -53,7 +53,7 @@
         <dependency>
             <groupId>com.gmail.nossr50.mcMMO</groupId>
             <artifactId>mcMMO</artifactId>
-            <version>1.4.06-dev6</version>
+            <version>RELEASE</version>
         </dependency>
     </dependencies>
 </project>
