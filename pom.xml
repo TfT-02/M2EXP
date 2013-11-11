@@ -8,13 +8,13 @@
     <url>computerdude5000.uk.to</url>
     <repositories>
         <repository>
-            <id>md_5-repo</id>
-            <url>http://repo.md-5.net/</url>
+            <id>bukkit-repo</id>
+            <url>http://repo.bukkit.org/content/groups/public/</url>
         </repository>
 
         <repository>
-            <id>bukkit-repo</id>
-            <url>http://repo.bukkit.org/content/groups/public/</url>
+            <id>md_5-repo</id>
+            <url>http://repo.md-5.net/</url>
         </repository>
 
         <repository>
@@ -38,16 +38,16 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>com.gmail.nossr50.mcMMO</groupId>
-            <artifactId>mcMMO</artifactId>
-            <version>RELEASE</version>
+            <groupId>org.bukkit</groupId>
+            <artifactId>bukkit</artifactId>
+            <version>1.6.1-R0.1-SNAPSHOT</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>1.6.1-R0.1-SNAPSHOT</version>
+            <groupId>com.gmail.nossr50.mcMMO</groupId>
+            <artifactId>mcMMO</artifactId>
+            <version>RELEASE</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
