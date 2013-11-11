@@ -17,7 +17,7 @@ import org.bukkit.command.CommandSender;
 
 public class Stats implements CommandExecutor
 {
-    public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings)
+    public boolean onCommand( CommandSender commandSender, Command command, String s, String[] strings )
     {
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }

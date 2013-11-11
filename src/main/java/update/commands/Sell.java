@@ -19,35 +19,55 @@ import org.bukkit.entity.Player;
 
 public class Sell implements CommandExecutor
 {
-    public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings)
+    public boolean onCommand( CommandSender commandSender, Command command, String s, String[] strings )
     {
-        if (commandSender instanceof Player)
+        if ( commandSender instanceof Player )
         {
-            Player player = (Player) commandSender;
-            if (command.getName().equalsIgnoreCase("sell"))
+            Player player = ( Player ) commandSender;
+            if ( command.getName( ).equalsIgnoreCase( "sell" ) )
             {
-                if (strings[0].equalsIgnoreCase("cash") || strings[0].equalsIgnoreCase("money"))
-                {
-                    //TODO add code here that will check if it is a number
-                    return true;
-                } else if (strings[0].equalsIgnoreCase("exp") || strings[0].equalsIgnoreCase("xp"))
-                {
-                    //TODO add code here that will check if it is a number
-                    return true;
-                } else if (strings[0].equalsIgnoreCase("help"))
+                if ( strings[ 0 ].equalsIgnoreCase( "cash" ) || strings[ 0 ].equalsIgnoreCase( "money" ) )
                 {
 
-                    player.sendMessage(ChatColor.AQUA + "You should probably check out /stock for current information ");
-                    player.sendMessage(ChatColor.BLUE + "---------formatting---------");
-                    player.sendMessage(ChatColor.GREEN + "command must be like /sell [currency] [skill] [unit amount]");
-                    player.sendMessage(ChatColor.BOLD + "IE:" + ChatColor.stripColor(ChatColor.GREEN + "/sell cash mining 100"));
-                } else
+                    try
+                    {
+                        double d = Double.parseDouble( strings[ 1 ] );
+                    } catch ( NumberFormatException nfe )
+                    {
+                        player.sendMessage( ChatColor.RED + "Enter A Number Please!!" );
+                        return false;
+                    }
+                    return true;
+                }
+                else if ( strings[ 0 ].equalsIgnoreCase( "exp" ) || strings[ 0 ].equalsIgnoreCase( "xp" ) )
                 {
-                    player.sendMessage(ChatColor.RED + "Invalid: Arguments must be help, cash, money, exp, xp are the only valid accepted arguements");
+
+                    try
+                    {
+                        double d = Double.parseDouble( strings[ 1 ] );
+                    } catch ( NumberFormatException nfe )
+                    {
+                        player.sendMessage( ChatColor.RED + "Enter A Number Please!!" );
+                        return false;
+                    }
+                    return true;
+                }
+                else if ( strings[ 0 ].equalsIgnoreCase( "help" ) )
+                {
+
+                    player.sendMessage( ChatColor.AQUA + "You should probably check out /stock for current information " );
+                    player.sendMessage( ChatColor.BLUE + "---------formatting---------" );
+                    player.sendMessage( ChatColor.GREEN + "command must be like /sell [currency] [unit amount] [skill]" );
+                    player.sendMessage( ChatColor.BOLD + "IE:" + ChatColor.stripColor( ChatColor.GREEN + "/sell cash 100 mining " ) );
+                }
+                else
+                {
+                    player.sendMessage( ChatColor.RED + "Invalid: Arguments must be help, cash, money, exp, xp are the only valid accepted arguements" );
                 }
                 return true;
             }
-        } else
+        }
+        else
         {
         }
 

@@ -9,17 +9,21 @@ package update.datatypes;
  */
 public enum SkillTypes
 {
-    ACROBATICS,
-    ARCHERY,
-    AXES,
-    EXCAVATION,
-    FISHING,
-    HERBALISM,
-    MINING,
-    REPAIR,
-    SMELTING,
-    SWORDS,
-    TAMING,
-    UNARMED,
-    WOODCUTTING
+    ACROBATICS( 0 ),
+    ARCHERY( 1 ),
+    AXES( 2 ),
+    EXCAVATION( 3 ),
+    FISHING( 4 ),
+    HERBALISM( 5 ),
+    MINING( 6 ),
+    REPAIR( 7 ),
+    SMELTING( 8 ),
+    SWORDS( 9 ),
+    TAMING( 10 ),
+    UNARMED( 11 ),
+    WOODCUTTING( 12 );
+
+    SkillTypes( int i )
+    {
+    }
 }

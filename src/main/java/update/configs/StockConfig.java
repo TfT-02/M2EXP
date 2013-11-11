@@ -27,70 +27,71 @@ public class StockConfig
     private File configFile;
     private FileConfiguration fileConfiguration;
 
-    public StockConfig(M2EXP plugin, String fileName)
+    public StockConfig( M2EXP plugin, String fileName )
     {
-        if (plugin == null)
+        if ( plugin == null )
         {
-            throw new IllegalArgumentException("plugin cannot be null");
+            throw new IllegalArgumentException( "plugin cannot be null" );
         }
-        if (!plugin.isInitialized())
+        if ( !plugin.isInitialized( ) )
         {
-            throw new IllegalArgumentException("plugin must be initiaized");
+            throw new IllegalArgumentException( "plugin must be initiaized" );
         }
         this.plugin = plugin;
         this.fileName = fileName;
-        File dataFolder = plugin.getDataFolder();
-        if (dataFolder == null)
+        File dataFolder = plugin.getDataFolder( );
+        if ( dataFolder == null )
         {
-            throw new IllegalStateException();
+            throw new IllegalStateException( );
         }
-        this.configFile = new File(plugin.getDataFolder(), fileName);
+        this.configFile = new File( plugin.getDataFolder( ), fileName );
     }
 
-    public void reloadConfig()
+    public void reloadConfig( )
     {
-        fileConfiguration = YamlConfiguration.loadConfiguration(configFile);
+        fileConfiguration = YamlConfiguration.loadConfiguration( configFile );
 
         // Look for defaults in the jar
-        InputStream defConfigStream = plugin.getResource(fileName);
-        if (defConfigStream != null)
+        InputStream defConfigStream = plugin.getResource( fileName );
+        if ( defConfigStream != null )
         {
-            YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigStream);
-            fileConfiguration.setDefaults(defConfig);
+            YamlConfiguration defConfig = YamlConfiguration.loadConfiguration( defConfigStream );
+            fileConfiguration.setDefaults( defConfig );
         }
     }
 
-    public FileConfiguration getConfig()
+    public FileConfiguration getConfig( )
     {
-        if (fileConfiguration == null)
+        if ( fileConfiguration == null )
         {
-            this.reloadConfig();
+            this.reloadConfig( );
         }
         return fileConfiguration;
     }
 
-    public void saveConfig()
+    public void saveConfig( )
     {
-        if (fileConfiguration == null || configFile == null)
+        if ( fileConfiguration == null || configFile == null )
         {
             return;
-        } else
+        }
+        else
         {
             try
             {
-                getConfig().save(configFile);
-            } catch (IOException ex)
+                getConfig( ).save( configFile );
+            } catch ( IOException ex )
             {
-                plugin.getLogger().log(Level.SEVERE, "Could not save config to " + configFile, ex);
+                plugin.getLogger( ).log( Level.SEVERE, "Could not save config to " + configFile, ex );
             }
         }
     }
 
-    public void saveDefaultConfig()
+    public void saveDefaultConfig( )
     {
-        if (!configFile.exists())
+        if ( !configFile.exists( ) )
         {
-            this.plugin.saveResource(fileName, false);
+            this.plugin.saveResource( fileName, false );
         }
     }
 

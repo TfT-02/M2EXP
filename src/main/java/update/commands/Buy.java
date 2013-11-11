@@ -19,38 +19,60 @@ import org.bukkit.entity.Player;
 
 public class Buy implements CommandExecutor
 {
-    public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings)
+    public boolean onCommand( CommandSender commandSender, Command command, String s, String[] strings )
     {
-        if (commandSender instanceof Player)
+        if ( commandSender instanceof Player )
         {
 
-            Player player = (Player) commandSender;
-            if (command.getName().equalsIgnoreCase("buy"))
+            Player player = ( Player ) commandSender;
+            if ( command.getName( ).equalsIgnoreCase( "buy" ) )
             {
-                if (strings[0].equalsIgnoreCase("cash") || strings[0].equalsIgnoreCase("money"))
+                if ( strings[ 0 ].equalsIgnoreCase( "cash" ) || strings[ 0 ].equalsIgnoreCase( "money" ) )
                 {
-                    //TODO add code here that will check if it is a number
+
+                    try
+                    {
+                        double d = Double.parseDouble( strings[ 1 ] );
+                    } catch ( NumberFormatException nfe )
+                    {
+                        player.sendMessage( ChatColor.RED + "Enter A Number Please!!" );
+                        return false;
+                    }
+
                     return true;
-                } else if (strings[0].equalsIgnoreCase("exp") || strings[0].equalsIgnoreCase("xp"))
+
+                }
+                else if ( strings[ 0 ].equalsIgnoreCase( "exp" ) || strings[ 0 ].equalsIgnoreCase( "xp" ) )
                 {
-                    //TODO add code here that will check if it is a number
+
+                    try
+                    {
+                        double d = Double.parseDouble( strings[ 1 ] );
+                    } catch ( NumberFormatException nfe )
+                    {
+                        player.sendMessage( ChatColor.RED + "Enter A Number Please!!" );
+                        return false;
+                    }
                     return true;
-                } else if (strings[0].equalsIgnoreCase("help"))
+                }
+                else if ( strings[ 0 ].equalsIgnoreCase( "help" ) )
                 {
-                    player.sendMessage(ChatColor.AQUA + "You should probably check out /stock for current information ");
-                    player.sendMessage(ChatColor.BLUE + "---------formatting---------");
-                    player.sendMessage(ChatColor.GREEN + "command must be like /buy [currency] [skill] [unit amount]");
-                    player.sendMessage(ChatColor.BOLD + "IE:" + ChatColor.stripColor(ChatColor.GREEN + "/buy cash mining 100"));
-                } else
+                    player.sendMessage( ChatColor.AQUA + "You should probably check out /stock for current information " );
+                    player.sendMessage( ChatColor.BLUE + "---------formatting---------" );
+                    player.sendMessage( ChatColor.GREEN + "command must be like /buy [currency] [unit amount] [skill]" );
+                    player.sendMessage( ChatColor.BOLD + "IE:" + ChatColor.stripColor( ChatColor.GREEN + "/buy cash 100 mining" ) );
+                }
+                else
                 {
-                    player.sendMessage(ChatColor.RED + "Invalid: Arguments must be help, cash, money, exp, xp are the only valid accepted arguements");
+                    player.sendMessage( ChatColor.RED + "Invalid: Arguments must be help, cash, money, exp, xp are the only valid accepted arguements" );
                 }
                 return true;
             }
-        } else
+        }
+        else
         {
-            commandSender.sendMessage(ChatColor.RED + "We're sorry but you are not a player so you are not allowed to do the following commands /buy and /sell");
-            commandSender.sendMessage(ChatColor.RED + "You however are allowed todo /money2XP, /stock and /stats ");
+            commandSender.sendMessage( ChatColor.RED + "We're sorry but you are not a player so you are not allowed to do the following commands /buy and /sell" );
+            commandSender.sendMessage( ChatColor.RED + "You however are allowed todo /money2XP, /stock and /stats " );
             return true;
         }
         return false;  //To change body of implemented methods use File | Settings | File Templates.
