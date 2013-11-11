@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d914c5-aefc-47b9-947a-746fbcc7d8ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyacrobatics.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyacrobatics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyarchery.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyarchery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyaxes.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyaxes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyexcavation.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyexcavation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyfishing.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyfishing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyherbalism.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyherbalism.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buymining.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buymining.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyrepair.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyrepair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyswords.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyswords.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buytaming.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buytaming.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyunarmed.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyunarmed.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buywoodcutting.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buywoodcutting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/Metrics.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/Metrics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/configs/StatsConfig.java" afterPath="$PROJECT_DIR$/src/main/java/update/configs/StatsConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="M2EXP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384186600625" ignored="false" />
+    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384186638953" ignored="false" />
     <file path="/Buywoodcutting.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1366207521687" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/modules/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993352302" ignored="false" />
     <file path="/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993321750" ignored="false" />
@@ -185,14 +171,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sell.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Sell.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/Sell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.68045115">
+            <state line="30" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#2767#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="78" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.71240604">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -244,15 +239,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StockConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/update/configs/StockConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="5" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TheBigChangeIdeas.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/update/TheBigChangeIdeas.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -293,7 +279,6 @@
         <option value="$PROJECT_DIR$/src/main/Resources/stockconfig.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyunarmed.java" />
         <option value="$PROJECT_DIR$/M2EXP.iml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/update/stock/Stock.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -302,6 +287,7 @@
         <option value="$PROJECT_DIR$/src/main/java/update/datatypes/SkillTypes.java" />
         <option value="$PROJECT_DIR$/src/main/java/update/commands/Buy.java" />
         <option value="$PROJECT_DIR$/src/main/java/update/commands/Sell.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -919,7 +905,11 @@
       <created>1384186611218</created>
       <updated>1384186611218</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="the rest of the formatting">
+      <created>1384186679171</created>
+      <updated>1384186679171</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -996,7 +986,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="worked on help started code reformat oh and added in the code for checking if its a number" />
+    <option name="LAST_COMMIT_MESSAGE" value="the rest of the formatting" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1010,7 +1000,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="do you have perms?" />
     <MESSAGE value="1.5.2 update&#10;" />
     <MESSAGE value="getting better fixing wize..." />
     <MESSAGE value="derping.&#10;" />
@@ -1035,6 +1024,7 @@
     <MESSAGE value="Removed .settings as we are no longer using eclipse" />
     <MESSAGE value="Worked a little bit more on the Buy and Sell commands added help dialog for both." />
     <MESSAGE value="worked on help started code reformat oh and added in the code for checking if its a number" />
+    <MESSAGE value="the rest of the formatting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1044,20 +1034,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="50" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyunarmed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="25" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="163" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.71374047">
@@ -1151,11 +1127,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/update/commands/Sell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.68045115">
+        <state line="30" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#2767#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/apache-maven-2.2.1/lib/maven-2.2.1-uber.jar!/org/apache/maven/project/pom-4.0.0.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="805" selection-end="805" vertical-scroll-proportion="0.6238532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="78" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.71240604">
+          <folding />
         </state>
       </provider>
     </entry>

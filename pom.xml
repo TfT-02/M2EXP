@@ -17,7 +17,7 @@
         </repository>
         <repository>
             <id>mcMMO-repo</id>
-            <url>http://repo.mcmmo.info/</url>
+            <url>http://ci.md-5.net/job/mcMMO/lastSuccessfulBuild/artifact/target/</url>
         </repository>
         <repository>
             <id>worldGuard-repo</id>
