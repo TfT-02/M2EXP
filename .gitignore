@@ -1,14 +1,42 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Eclipse stuff
+/.classpath
+/.project
+/.settings
 
-# Compiled Dynamic libraries
-*.so
+# netbeans
+/nbproject
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.class
-bin
+# we use maven!
+/build.xml
+
+# maven
+/target
+
+# vim
+.*.sw[a-p]
+
+# various other potential build files
+/build
+/bin
+/dist
+/manifest.mf
+
+/world
+
+# Mac filesystem dust
+*.DS_Store
+
+# intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Project Stuff
+/src/main/resources/M2EXP
+
+# Other Libraries
+*.jar
+
+# Atlassian Stuff
+/atlassian-ide-plugin.xml
