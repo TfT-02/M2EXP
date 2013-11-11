@@ -95,13 +95,13 @@ public class Metrics
      * All of the custom graphs to submit to metrics
      */
     private final Set<Graph> graphs = Collections
-            .synchronizedSet(new HashSet<Graph>());
+            .synchronizedSet( new HashSet<Graph>( ) );
 
     /**
      * The default graph, used for addCustomData when you don't want a specific
      * graph
      */
-    private final Graph defaultGraph = new Graph("Default");
+    private final Graph defaultGraph = new Graph( "Default" );
 
     /**
      * The plugin configuration file
@@ -126,42 +126,42 @@ public class Metrics
     /**
      * Lock for synchronization
      */
-    private final Object optOutLock = new Object();
+    private final Object optOutLock = new Object( );
 
     /**
      * The scheduled task
      */
     private volatile BukkitTask task = null;
 
-    public Metrics(final Plugin plugin) throws IOException
+    public Metrics( final Plugin plugin ) throws IOException
     {
-        if (plugin == null)
+        if ( plugin == null )
         {
-            throw new IllegalArgumentException("Plugin cannot be null");
+            throw new IllegalArgumentException( "Plugin cannot be null" );
         }
 
         this.plugin = plugin;
 
         // load the config
-        configurationFile = getConfigFile();
-        configuration = YamlConfiguration.loadConfiguration(configurationFile);
+        configurationFile = getConfigFile( );
+        configuration = YamlConfiguration.loadConfiguration( configurationFile );
 
         // add some defaults
-        configuration.addDefault("opt-out", false);
-        configuration.addDefault("guid", UUID.randomUUID().toString());
-        configuration.addDefault("debug", false);
+        configuration.addDefault( "opt-out", false );
+        configuration.addDefault( "guid", UUID.randomUUID( ).toString( ) );
+        configuration.addDefault( "debug", false );
 
         // Do we need to create the file?
-        if (configuration.get("guid", null) == null)
+        if ( configuration.get( "guid", null ) == null )
         {
-            configuration.options().header("http://mcstats.org")
-                    .copyDefaults(true);
-            configuration.save(configurationFile);
+            configuration.options( ).header( "http://mcstats.org" )
+                    .copyDefaults( true );
+            configuration.save( configurationFile );
         }
 
         // Load the guid then
-        guid = configuration.getString("guid");
-        debug = configuration.getBoolean("debug", false);
+        guid = configuration.getString( "guid" );
+        debug = configuration.getBoolean( "debug", false );
     }
 
     /**
@@ -173,18 +173,18 @@ public class Metrics
      * @return Graph object created. Will never return NULL under normal
      *         circumstances unless bad parameters are given
      */
-    public Graph createGraph(final String name)
+    public Graph createGraph( final String name )
     {
-        if (name == null)
+        if ( name == null )
         {
-            throw new IllegalArgumentException("Graph name cannot be null");
+            throw new IllegalArgumentException( "Graph name cannot be null" );
         }
 
         // Construct the graph object
-        final Graph graph = new Graph(name);
+        final Graph graph = new Graph( name );
 
         // Now we can add our graph
-        graphs.add(graph);
+        graphs.add( graph );
 
         // and return back
         return graph;
@@ -196,14 +196,14 @@ public class Metrics
      *
      * @param graph The name of the graph
      */
-    public void addGraph(final Graph graph)
+    public void addGraph( final Graph graph )
     {
-        if (graph == null)
+        if ( graph == null )
         {
-            throw new IllegalArgumentException("Graph cannot be null");
+            throw new IllegalArgumentException( "Graph cannot be null" );
         }
 
-        graphs.add(graph);
+        graphs.add( graph );
     }
 
     /**
@@ -211,18 +211,18 @@ public class Metrics
      *
      * @param plotter The plotter to use to plot custom data
      */
-    public void addCustomData(final Plotter plotter)
+    public void addCustomData( final Plotter plotter )
     {
-        if (plotter == null)
+        if ( plotter == null )
         {
-            throw new IllegalArgumentException("Plotter cannot be null");
+            throw new IllegalArgumentException( "Plotter cannot be null" );
         }
 
         // Add the plotter to the graph o/
-        defaultGraph.addPlotter(plotter);
+        defaultGraph.addPlotter( plotter );
 
         // Ensure the default graph is included in the submitted graphs
-        graphs.add(defaultGraph);
+        graphs.add( defaultGraph );
     }
 
     /**
@@ -233,48 +233,48 @@ public class Metrics
      *
      * @return True if statistics measuring is running, otherwise false.
      */
-    public boolean start()
+    public boolean start( )
     {
-        synchronized (optOutLock)
+        synchronized ( optOutLock )
         {
             // Did we opt out?
-            if (isOptOut())
+            if ( isOptOut( ) )
             {
                 return false;
             }
 
             // Is metrics already running?
-            if (task != null)
+            if ( task != null )
             {
                 return true;
             }
 
             // Begin hitting the server with glorious data
-            task = plugin.getServer().getScheduler()
-                    .runTaskTimerAsynchronously(plugin, new Runnable()
+            task = plugin.getServer( ).getScheduler( )
+                    .runTaskTimerAsynchronously( plugin, new Runnable( )
                     {
 
                         private boolean firstPost = true;
 
-                        public void run()
+                        public void run( )
                         {
                             try
                             {
                                 // This has to be synchronized or it can collide
                                 // with the disable method.
-                                synchronized (optOutLock)
+                                synchronized ( optOutLock )
                                 {
                                     // Disable Task, if it is running and the
                                     // server owner decided to opt-out
-                                    if (isOptOut() && task != null)
+                                    if ( isOptOut( ) && task != null )
                                     {
-                                        task.cancel();
+                                        task.cancel( );
                                         task = null;
                                         // Tell all plotters to stop gathering
                                         // information.
-                                        for (Graph graph : graphs)
+                                        for ( Graph graph : graphs )
                                         {
-                                            graph.onOptOut();
+                                            graph.onOptOut( );
                                         }
                                     }
                                 }
@@ -285,22 +285,22 @@ public class Metrics
                                 // FALSE
                                 // Each time thereafter it will evaluate to
                                 // TRUE, i.e PING!
-                                postPlugin(!firstPost);
+                                postPlugin( !firstPost );
 
                                 // After the first post we set firstPost to
                                 // false
                                 // Each post thereafter will be a ping
                                 firstPost = false;
-                            } catch (IOException e)
+                            } catch ( IOException e )
                             {
-                                if (debug)
+                                if ( debug )
                                 {
-                                    Bukkit.getLogger().log(Level.INFO,
-                                            "[Metrics] " + e.getMessage());
+                                    Bukkit.getLogger( ).log( Level.INFO,
+                                            "[Metrics] " + e.getMessage( ) );
                                 }
                             }
                         }
-                    }, 0, PING_INTERVAL * 1200);
+                    }, 0, PING_INTERVAL * 1200 );
 
             return true;
         }
@@ -311,32 +311,32 @@ public class Metrics
      *
      * @return true if metrics should be opted out of it
      */
-    public boolean isOptOut()
+    public boolean isOptOut( )
     {
-        synchronized (optOutLock)
+        synchronized ( optOutLock )
         {
             try
             {
                 // Reload the metrics file
-                configuration.load(getConfigFile());
-            } catch (IOException ex)
+                configuration.load( getConfigFile( ) );
+            } catch ( IOException ex )
             {
-                if (debug)
+                if ( debug )
                 {
-                    Bukkit.getLogger().log(Level.INFO,
-                            "[Metrics] " + ex.getMessage());
+                    Bukkit.getLogger( ).log( Level.INFO,
+                            "[Metrics] " + ex.getMessage( ) );
                 }
                 return true;
-            } catch (InvalidConfigurationException ex)
+            } catch ( InvalidConfigurationException ex )
             {
-                if (debug)
+                if ( debug )
                 {
-                    Bukkit.getLogger().log(Level.INFO,
-                            "[Metrics] " + ex.getMessage());
+                    Bukkit.getLogger( ).log( Level.INFO,
+                            "[Metrics] " + ex.getMessage( ) );
                 }
                 return true;
             }
-            return configuration.getBoolean("opt-out", false);
+            return configuration.getBoolean( "opt-out", false );
         }
     }
 
@@ -346,24 +346,24 @@ public class Metrics
      *
      * @throws IOException
      */
-    public void enable() throws IOException
+    public void enable( ) throws IOException
     {
         // This has to be synchronized or it can collide with the check in the
         // task.
-        synchronized (optOutLock)
+        synchronized ( optOutLock )
         {
             // Check if the server owner has already set opt-out, if not, set
             // it.
-            if (isOptOut())
+            if ( isOptOut( ) )
             {
-                configuration.set("opt-out", false);
-                configuration.save(configurationFile);
+                configuration.set( "opt-out", false );
+                configuration.save( configurationFile );
             }
 
             // Enable Task, if it is not running
-            if (task == null)
+            if ( task == null )
             {
-                start();
+                start( );
             }
         }
     }
@@ -374,24 +374,24 @@ public class Metrics
      *
      * @throws IOException
      */
-    public void disable() throws IOException
+    public void disable( ) throws IOException
     {
         // This has to be synchronized or it can collide with the check in the
         // task.
-        synchronized (optOutLock)
+        synchronized ( optOutLock )
         {
             // Check if the server owner has already set opt-out, if not, set
             // it.
-            if (!isOptOut())
+            if ( !isOptOut( ) )
             {
-                configuration.set("opt-out", true);
-                configuration.save(configurationFile);
+                configuration.set( "opt-out", true );
+                configuration.save( configurationFile );
             }
 
             // Disable Task, if it is running
-            if (task != null)
+            if ( task != null )
             {
-                task.cancel();
+                task.cancel( );
                 task = null;
             }
         }
@@ -403,7 +403,7 @@ public class Metrics
      *
      * @return the File object for the config file
      */
-    public File getConfigFile()
+    public File getConfigFile( )
     {
         // I believe the easiest way to get the base folder (e.g craftbukkit set
         // via -P) for plugins to use
@@ -411,154 +411,156 @@ public class Metrics
         // plugin.getDataFolder() => base/plugins/PluginA/
         // pluginsFolder => base/plugins/
         // The base is not necessarily relative to the startup directory.
-        File pluginsFolder = plugin.getDataFolder().getParentFile();
+        File pluginsFolder = plugin.getDataFolder( ).getParentFile( );
 
         // return => base/plugins/PluginMetrics/config.yml
-        return new File(new File(pluginsFolder, "PluginMetrics"), "config.yml");
+        return new File( new File( pluginsFolder, "PluginMetrics" ), "config.yml" );
     }
 
     /**
      * Generic method that posts a plugin to the metrics website
      */
-    private void postPlugin(final boolean isPing) throws IOException
+    private void postPlugin( final boolean isPing ) throws IOException
     {
         // Server software specific section
-        PluginDescriptionFile description = plugin.getDescription();
-        String pluginName = description.getName();
-        boolean onlineMode = Bukkit.getServer().getOnlineMode(); // TRUE if
+        PluginDescriptionFile description = plugin.getDescription( );
+        String pluginName = description.getName( );
+        boolean onlineMode = Bukkit.getServer( ).getOnlineMode( ); // TRUE if
         // online
         // mode is
         // enabled
-        String pluginVersion = description.getVersion();
-        String serverVersion = Bukkit.getVersion();
-        int playersOnline = Bukkit.getServer().getOnlinePlayers().length;
+        String pluginVersion = description.getVersion( );
+        String serverVersion = Bukkit.getVersion( );
+        int playersOnline = Bukkit.getServer( ).getOnlinePlayers( ).length;
 
         // END server software specific section -- all code below does not use
         // any code outside of this class / Java
 
         // Construct the post data
-        final StringBuilder data = new StringBuilder();
+        final StringBuilder data = new StringBuilder( );
 
         // The plugin's description file containg all of the plugin data such as
         // name, version, author, etc
-        data.append(encode("guid")).append('=').append(encode(guid));
-        encodeDataPair(data, "version", pluginVersion);
-        encodeDataPair(data, "server", serverVersion);
-        encodeDataPair(data, "players", Integer.toString(playersOnline));
-        encodeDataPair(data, "revision", String.valueOf(REVISION));
+        data.append( encode( "guid" ) ).append( '=' ).append( encode( guid ) );
+        encodeDataPair( data, "version", pluginVersion );
+        encodeDataPair( data, "server", serverVersion );
+        encodeDataPair( data, "players", Integer.toString( playersOnline ) );
+        encodeDataPair( data, "revision", String.valueOf( REVISION ) );
 
         // New data as of R6
-        String osname = System.getProperty("os.name");
-        String osarch = System.getProperty("os.arch");
-        String osversion = System.getProperty("os.version");
-        String java_version = System.getProperty("java.version");
-        int coreCount = Runtime.getRuntime().availableProcessors();
+        String osname = System.getProperty( "os.name" );
+        String osarch = System.getProperty( "os.arch" );
+        String osversion = System.getProperty( "os.version" );
+        String java_version = System.getProperty( "java.version" );
+        int coreCount = Runtime.getRuntime( ).availableProcessors( );
 
         // normalize os arch .. amd64 -> x86_64
-        if (osarch.equals("amd64"))
+        if ( osarch.equals( "amd64" ) )
         {
             osarch = "x86_64";
         }
 
-        encodeDataPair(data, "osname", osname);
-        encodeDataPair(data, "osarch", osarch);
-        encodeDataPair(data, "osversion", osversion);
-        encodeDataPair(data, "cores", Integer.toString(coreCount));
-        encodeDataPair(data, "online-mode", Boolean.toString(onlineMode));
-        encodeDataPair(data, "java_version", java_version);
+        encodeDataPair( data, "osname", osname );
+        encodeDataPair( data, "osarch", osarch );
+        encodeDataPair( data, "osversion", osversion );
+        encodeDataPair( data, "cores", Integer.toString( coreCount ) );
+        encodeDataPair( data, "online-mode", Boolean.toString( onlineMode ) );
+        encodeDataPair( data, "java_version", java_version );
 
         // If we're pinging, append it
-        if (isPing)
+        if ( isPing )
         {
-            encodeDataPair(data, "ping", "true");
+            encodeDataPair( data, "ping", "true" );
         }
 
         // Acquire a lock on the graphs, which lets us make the assumption we
         // also lock everything
         // inside of the graph (e.g plotters)
-        synchronized (graphs)
+        synchronized ( graphs )
         {
-            final Iterator<Graph> iter = graphs.iterator();
+            final Iterator<Graph> iter = graphs.iterator( );
 
-            while (iter.hasNext())
+            while ( iter.hasNext( ) )
             {
-                final Graph graph = iter.next();
+                final Graph graph = iter.next( );
 
-                for (Plotter plotter : graph.getPlotters())
+                for ( Plotter plotter : graph.getPlotters( ) )
                 {
                     // The key name to send to the metrics server
                     // The format is C-GRAPHNAME-PLOTTERNAME where separator -
                     // is defined at the top
                     // Legacy (R4) submitters use the format Custom%s, or
                     // CustomPLOTTERNAME
-                    final String key = String.format("C%s%s%s%s",
-                            CUSTOM_DATA_SEPARATOR, graph.getName(),
-                            CUSTOM_DATA_SEPARATOR, plotter.getColumnName());
+                    final String key = String.format( "C%s%s%s%s",
+                            CUSTOM_DATA_SEPARATOR, graph.getName( ),
+                            CUSTOM_DATA_SEPARATOR, plotter.getColumnName( ) );
 
                     // The value to send, which for the foreseeable future is
                     // just the string
                     // value of plotter.getValue()
-                    final String value = Integer.toString(plotter.getValue());
+                    final String value = Integer.toString( plotter.getValue( ) );
 
                     // Add it to the http post data :)
-                    encodeDataPair(data, key, value);
+                    encodeDataPair( data, key, value );
                 }
             }
         }
 
         // Create the url
-        URL url = new URL(BASE_URL
-                + String.format(REPORT_URL, encode(pluginName)));
+        URL url = new URL( BASE_URL
+                + String.format( REPORT_URL, encode( pluginName ) ) );
 
         // Connect to the website
         URLConnection connection;
 
         // Mineshafter creates a socks proxy, so we can safely bypass it
         // It does not reroute POST requests so we need to go around it
-        if (isMineshafterPresent())
+        if ( isMineshafterPresent( ) )
         {
-            connection = url.openConnection(Proxy.NO_PROXY);
-        } else
+            connection = url.openConnection( Proxy.NO_PROXY );
+        }
+        else
         {
-            connection = url.openConnection();
+            connection = url.openConnection( );
         }
 
-        connection.setDoOutput(true);
+        connection.setDoOutput( true );
 
         // Write the data
         final OutputStreamWriter writer = new OutputStreamWriter(
-                connection.getOutputStream());
-        writer.write(data.toString());
-        writer.flush();
+                connection.getOutputStream( ) );
+        writer.write( data.toString( ) );
+        writer.flush( );
 
         // Now read the response
-        final BufferedReader reader = new BufferedReader(new InputStreamReader(
-                connection.getInputStream()));
-        final String response = reader.readLine();
+        final BufferedReader reader = new BufferedReader( new InputStreamReader(
+                connection.getInputStream( ) ) );
+        final String response = reader.readLine( );
 
         // close resources
-        writer.close();
-        reader.close();
+        writer.close( );
+        reader.close( );
 
-        if (response == null || response.startsWith("ERR"))
+        if ( response == null || response.startsWith( "ERR" ) )
         {
-            throw new IOException(response); // Throw the exception
-        } else
+            throw new IOException( response ); // Throw the exception
+        }
+        else
         {
             // Is this the first update this hour?
-            if (response.contains("OK This is your first update this hour"))
+            if ( response.contains( "OK This is your first update this hour" ) )
             {
-                synchronized (graphs)
+                synchronized ( graphs )
                 {
-                    final Iterator<Graph> iter = graphs.iterator();
+                    final Iterator<Graph> iter = graphs.iterator( );
 
-                    while (iter.hasNext())
+                    while ( iter.hasNext( ) )
                     {
-                        final Graph graph = iter.next();
+                        final Graph graph = iter.next( );
 
-                        for (Plotter plotter : graph.getPlotters())
+                        for ( Plotter plotter : graph.getPlotters( ) )
                         {
-                            plotter.reset();
+                            plotter.reset( );
                         }
                     }
                 }
@@ -572,13 +574,13 @@ public class Metrics
      *
      * @return true if mineshafter is installed on the server
      */
-    private boolean isMineshafterPresent()
+    private boolean isMineshafterPresent( )
     {
         try
         {
-            Class.forName("mineshafter.MineServer");
+            Class.forName( "mineshafter.MineServer" );
             return true;
-        } catch (Exception e)
+        } catch ( Exception e )
         {
             return false;
         }
@@ -599,12 +601,12 @@ public class Metrics
      * @param key    the key value
      * @param value  the value
      */
-    private static void encodeDataPair(final StringBuilder buffer,
-                                       final String key, final String value)
+    private static void encodeDataPair( final StringBuilder buffer,
+                                        final String key, final String value )
             throws UnsupportedEncodingException
     {
-        buffer.append('&').append(encode(key)).append('=')
-                .append(encode(value));
+        buffer.append( '&' ).append( encode( key ) ).append( '=' )
+                .append( encode( value ) );
     }
 
     /**
@@ -613,10 +615,10 @@ public class Metrics
      * @param text the text to encode
      * @return the encoded text, as UTF-8
      */
-    private static String encode(final String text)
+    private static String encode( final String text )
             throws UnsupportedEncodingException
     {
-        return URLEncoder.encode(text, "UTF-8");
+        return URLEncoder.encode( text, "UTF-8" );
     }
 
     /**
@@ -634,9 +636,9 @@ public class Metrics
         /**
          * The set of plotters that are contained within this graph
          */
-        private final Set<Plotter> plotters = new LinkedHashSet<Plotter>();
+        private final Set<Plotter> plotters = new LinkedHashSet<Plotter>( );
 
-        private Graph(final String name)
+        private Graph( final String name )
         {
             this.name = name;
         }
@@ -646,7 +648,7 @@ public class Metrics
          *
          * @return the Graph's name
          */
-        public String getName()
+        public String getName( )
         {
             return name;
         }
@@ -656,9 +658,9 @@ public class Metrics
          *
          * @param plotter the plotter to add to the graph
          */
-        public void addPlotter(final Plotter plotter)
+        public void addPlotter( final Plotter plotter )
         {
-            plotters.add(plotter);
+            plotters.add( plotter );
         }
 
         /**
@@ -666,9 +668,9 @@ public class Metrics
          *
          * @param plotter the plotter to remove from the graph
          */
-        public void removePlotter(final Plotter plotter)
+        public void removePlotter( final Plotter plotter )
         {
-            plotters.remove(plotter);
+            plotters.remove( plotter );
         }
 
         /**
@@ -676,34 +678,34 @@ public class Metrics
          *
          * @return an unmodifiable {@link Set} of the plotter objects
          */
-        public Set<Plotter> getPlotters()
+        public Set<Plotter> getPlotters( )
         {
-            return Collections.unmodifiableSet(plotters);
+            return Collections.unmodifiableSet( plotters );
         }
 
         @Override
-        public int hashCode()
+        public int hashCode( )
         {
-            return name.hashCode();
+            return name.hashCode( );
         }
 
         @Override
-        public boolean equals(final Object object)
+        public boolean equals( final Object object )
         {
-            if (!(object instanceof Graph))
+            if ( !( object instanceof Graph ) )
             {
                 return false;
             }
 
-            final Graph graph = (Graph) object;
-            return graph.name.equals(name);
+            final Graph graph = ( Graph ) object;
+            return graph.name.equals( name );
         }
 
         /**
          * Called when the server owner decides to opt-out of Metrics while the
          * server is running.
          */
-        protected void onOptOut()
+        protected void onOptOut( )
         {
         }
 
@@ -723,9 +725,9 @@ public class Metrics
         /**
          * Construct a plotter with the default plot name
          */
-        public Plotter()
+        public Plotter( )
         {
-            this("Default");
+            this( "Default" );
         }
 
         /**
@@ -734,7 +736,7 @@ public class Metrics
          * @param name the name of the plotter to use, which will show up on the
          *             website
          */
-        public Plotter(final String name)
+        public Plotter( final String name )
         {
             this.name = name;
         }
@@ -748,14 +750,14 @@ public class Metrics
          *
          * @return the current value for the point to be plotted.
          */
-        public abstract int getValue();
+        public abstract int getValue( );
 
         /**
          * Get the column name for the plotted point
          *
          * @return the plotted point's column name
          */
-        public String getColumnName()
+        public String getColumnName( )
         {
             return name;
         }
@@ -763,27 +765,27 @@ public class Metrics
         /**
          * Called after the website graphs have been updated
          */
-        public void reset()
+        public void reset( )
         {
         }
 
         @Override
-        public int hashCode()
+        public int hashCode( )
         {
-            return getColumnName().hashCode();
+            return getColumnName( ).hashCode( );
         }
 
         @Override
-        public boolean equals(final Object object)
+        public boolean equals( final Object object )
         {
-            if (!(object instanceof Plotter))
+            if ( !( object instanceof Plotter ) )
             {
                 return false;
             }
 
-            final Plotter plotter = (Plotter) object;
-            return plotter.name.equals(name)
-                    && plotter.getValue() == getValue();
+            final Plotter plotter = ( Plotter ) object;
+            return plotter.name.equals( name )
+                    && plotter.getValue( ) == getValue( );
         }
 
     }

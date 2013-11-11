@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d914c5-aefc-47b9-947a-746fbcc7d8ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/commands/Buy.java" afterPath="$PROJECT_DIR$/src/main/java/update/commands/Buy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/commands/Sell.java" afterPath="$PROJECT_DIR$/src/main/java/update/commands/Sell.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/datatypes/SkillTypes.java" afterPath="$PROJECT_DIR$/src/main/java/update/datatypes/SkillTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/commands/Stats.java" afterPath="$PROJECT_DIR$/src/main/java/update/commands/Stats.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/stock/Stock.java" afterPath="$PROJECT_DIR$/src/main/java/update/stock/Stock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/configs/StockConfig.java" afterPath="$PROJECT_DIR$/src/main/java/update/configs/StockConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyacrobatics.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyacrobatics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyarchery.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyarchery.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyaxes.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyaxes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyexcavation.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyexcavation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyfishing.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyfishing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyherbalism.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyherbalism.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buymining.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buymining.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyrepair.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyrepair.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyswords.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyswords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buytaming.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buytaming.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyunarmed.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buyunarmed.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buywoodcutting.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/commands/Buywoodcutting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/M2EXP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/Metrics.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/m2exp/Metrics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/update/configs/StatsConfig.java" afterPath="$PROJECT_DIR$/src/main/java/update/configs/StatsConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="M2EXP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384186549906" ignored="false" />
+    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384186600625" ignored="false" />
     <file path="/Buywoodcutting.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1366207521687" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/modules/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993352302" ignored="false" />
     <file path="/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993321750" ignored="false" />
@@ -906,7 +915,11 @@
       <created>1384186582531</created>
       <updated>1384186582531</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="worked on help started code reformat oh and added in the code for checking if its a number">
+      <created>1384186611218</created>
+      <updated>1384186611218</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
