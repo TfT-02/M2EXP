@@ -17,7 +17,7 @@
         </repository>
         <repository>
             <id>mcMMO-repo</id>
-            <url>file://repo/</url>
+            <url>file:///repo/</url>
         </repository>
         <repository>
             <id>worldGuard-repo</id>

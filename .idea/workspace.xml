@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d914c5-aefc-47b9-947a-746fbcc7d8ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repo/com/gmail/nossr50/mcMMO/mcMMO/1.4.05-dev1/mcMMO-1.4.05-dev1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repo/com/gmail/nossr50/mcMMO/mcMMO/1.4.06-dev6/mcMMO-1.4.06-dev6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repo/com/gmail/nossr50/mcMMO/mcMMO/1.4.05-dev1/_maven.repositories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repo/com/gmail/nossr50/mcMMO/mcMMO/1.4.06-dev6/_maven.repositories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repo/com/gmail/nossr50/mcMMO/mcMMO/1.4.05-dev1/mcMMO-1.4.05-dev1.jar.sha1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repo/com/gmail/nossr50/mcMMO/mcMMO/1.4.05-dev1/mcMMO-1.4.05-dev1.pom.sha1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repo/com/gmail/nossr50/mcMMO/mcMMO/1.4.05-dev1/mcMMO-1.4.05-dev1.pom" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repo/com/gmail/nossr50/mcMMO/mcMMO/1.4.06-dev6/mcMMO-1.4.06-dev6.jar.sha1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repo/com/gmail/nossr50/mcMMO/mcMMO/1.4.06-dev6/mcMMO-1.4.06-dev6.pom.sha1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repo/com/gmail/nossr50/mcMMO/mcMMO/1.4.06-dev6/mcMMO-1.4.06-dev6.pom" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="M2EXP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384189050046" ignored="false" />
+    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384190324937" ignored="false" />
     <file path="/Buywoodcutting.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1366207521687" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/modules/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993352302" ignored="false" />
     <file path="/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993321750" ignored="false" />
@@ -196,7 +186,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="58" selection-start="925" selection-end="925" vertical-scroll-proportion="-0.34210527">
+            <state line="19" column="24" selection-start="834" selection-end="834" vertical-scroll-proportion="0.41541353">
               <folding />
             </state>
           </provider>
@@ -865,7 +855,11 @@
       <created>1384189054906</created>
       <updated>1384189054906</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="test 2">
+      <created>1384190360843</created>
+      <updated>1384190360843</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1100,7 +1094,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="58" selection-start="925" selection-end="925" vertical-scroll-proportion="-0.34210527">
+        <state line="19" column="24" selection-start="834" selection-end="834" vertical-scroll-proportion="0.41541353">
           <folding />
         </state>
       </provider>
