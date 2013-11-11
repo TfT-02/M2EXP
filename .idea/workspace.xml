@@ -7,7 +7,7 @@
     </list>
     <ignored path="M2EXP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384191569062" ignored="false" />
+    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384191759250" ignored="false" />
     <file path="/Buywoodcutting.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1366207521687" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/modules/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993352302" ignored="false" />
     <file path="/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993321750" ignored="false" />
@@ -186,7 +186,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="21" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.8082707">
+            <state line="55" column="41" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.8082707">
               <folding />
             </state>
           </provider>
@@ -875,7 +875,11 @@
       <created>1384191574562</created>
       <updated>1384191574562</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="should really work now :D">
+      <created>1384191764671</created>
+      <updated>1384191764671</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1110,7 +1114,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="21" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.8082707">
+        <state line="55" column="41" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.8082707">
           <folding />
         </state>
       </provider>
