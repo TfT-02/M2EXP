@@ -7,7 +7,7 @@
     </list>
     <ignored path="M2EXP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384192393562" ignored="false" />
+    <file path="/Dummy.txt" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384192853656" ignored="false" />
     <file path="/Buywoodcutting.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1366207521687" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/modules/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993352302" ignored="false" />
     <file path="/EggXplosion.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1365993321750" ignored="false" />
@@ -46,7 +46,7 @@
     <file path="$PROJECT_DIR$/../HungerGames/pom.xml" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1370070925109" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/pom.xml" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1375206254578" ignored="false" />
     <file path="$PROJECT_DIR$/../InfiniumCraftTools/src/main/java/com/github/computerdude5000/terracrafttools/config/MasterReadOnlyConfigHandler.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1375201899531" ignored="false" />
-    <file path="/pom.xml" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384192813156" ignored="false" />
+    <file path="/pom.xml" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1384194163171" ignored="false" />
     <file path="/M2EXP.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1375199073640" ignored="false" />
     <file path="$PROJECT_DIR$/../DerpingWorldGen/src/main/java/com/github/computerdude5000/derpingworldgen/Metrics.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1370229422250" ignored="false" />
     <file path="/Metrics.java" changelist="45d914c5-aefc-47b9-947a-746fbcc7d8ba" time="1370229420703" ignored="false" />
@@ -186,7 +186,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="7" selection-start="718" selection-end="718" vertical-scroll-proportion="-0.18233083">
+            <state line="58" column="48" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.83082706">
               <folding />
             </state>
           </provider>
@@ -897,7 +897,11 @@
       <created>1384192397171</created>
       <updated>1384192397171</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="maybe this">
+      <created>1384192857406</created>
+      <updated>1384192857406</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -974,7 +978,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="nope." />
+    <option name="LAST_COMMIT_MESSAGE" value="maybe this" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -988,7 +992,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="update for 1.6.1 :D" />
     <MESSAGE value="update the plugin yml." />
     <MESSAGE value="java docing and code formatting" />
     <MESSAGE value="Summers winding down schools starting back up and i finally have enough time to get to work on this plugin" />
@@ -1013,6 +1016,7 @@
     <MESSAGE value="should really work now :D" />
     <MESSAGE value="ok so vault works" />
     <MESSAGE value="nope." />
+    <MESSAGE value="maybe this" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1136,7 +1140,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="718" selection-end="718" vertical-scroll-proportion="-0.18233083">
+        <state line="58" column="48" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.83082706">
           <folding />
         </state>
       </provider>
